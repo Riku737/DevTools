@@ -5,7 +5,8 @@ $page_title = "Login";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $args = $_POST['resource'];
-    echo var_dump($args);
+
+    $suggestion = new Resource($args);
 }
 
 include(SHARED_PATH . '/public_header.php');
@@ -13,13 +14,14 @@ include(SHARED_PATH . '/public_header.php');
 
 <div class="container-lg mt-5">
 
-    <div class="mb-5">
-        <h1 class="fw-bold">Got a Favorite Tool?</h1>
-        <p>Help the community grow — suggest a resource and share it with developers worldwide.</p>
-    </div>
-
     <div class="row">
-        <form class="col-lg-6" action="suggest.php" method="POST">
+
+        <form class="col-lg-6 offset-lg-3" action="suggest.php" method="POST">
+
+            <div class="mb-4">
+                <h1 class="fw-bold">Got a Favorite Tool?</h1>
+                <p>Help the community grow — suggest a resource and share it with developers worldwide.</p>
+            </div>
 
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Resource Name" name="resource[name]" required>
@@ -33,10 +35,10 @@ include(SHARED_PATH . '/public_header.php');
 
             <div class="form-floating mb-3">
                 <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="resource[category]" required>
-                    <option value="" selected disabled>Select a category</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option selected>Select a category</option>
+                    <?php foreach (Suggestion::getCategories() as $key => $value) { ?>
+                        <option value="<?php echo $key; ?>"><?php echo $value; ?></option>
+                    <?php } ?>
                 </select>
                 <label for="floatingSelect">Category</label>
             </div>
@@ -49,9 +51,11 @@ include(SHARED_PATH . '/public_header.php');
             <button type="submit" class="btn btn-primary">Submit</button>
 
         </form>
+
     </div>
 
 </div>
+
 
 <?php
 include(SHARED_PATH . '/public_footer.php')

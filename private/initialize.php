@@ -12,7 +12,7 @@ $doc_root = substr($_SERVER['SCRIPT_NAME'], 0, $public_end);
 define("WWW_ROOT", $doc_root);
 
 // Classes
-foreach (glob(SHARED_PATH . "/classes/*.php") as $file) {
+foreach (glob(PRIVATE_PATH . "/classes/*.php") as $file) {
     include($file);
 }
 

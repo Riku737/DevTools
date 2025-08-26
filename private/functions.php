@@ -8,3 +8,8 @@ function url_for($script_path)
     }
     return WWW_ROOT . $script_path;
 }
+
+function is_blank($value)
+{
+    return !isset($value) || trim($value) === '';
+}

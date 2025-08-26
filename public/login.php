@@ -7,10 +7,10 @@ include(SHARED_PATH . '/public_header.php');
 
 <div class="container-lg mt-5">
 
-    <h1 class="mb-5 fw-bold">Login</h1>
 
     <div class="row">
-        <form class="col-lg-6">
+        <form class="col-lg-6 offset-lg-3">
+            <h1 class="mb-4 fw-bold">Login</h1>
             <div class="form-floating mb-3">
                 <input type="username" class="form-control" id="floatingInput" placeholder="Username" name="username">
                 <label for="floatingInput">Username</label>

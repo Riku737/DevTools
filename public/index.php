@@ -1,17 +1,18 @@
 <?php
+
 require_once('../private/initialize.php');
 $page_title = "Home";
 
 include(SHARED_PATH . '/public_header.php');
+
 ?>
 
 <div class="container-lg pt-5">
 
-    <div class="mb-5">
+    <div class="mb-4">
         <h1 class=" fw-bold">All Your Developer Tools in One Place</h1>
         <p>Discover, organize, and access the resources you need to build faster and smarter.</p>
     </div>
-
 
     <div class="row g-3">
         <?php for ($i = 0; $i < 5; $i++) { ?>

@@ -30,10 +30,10 @@
                         <a class="nav-link" href="<?php echo url_for('/index.php'); ?>">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo url_for('/index.php'); ?>">Deals</a>
+                        <a class="nav-link" href="<?php echo url_for('/deals.php'); ?>">Deals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo url_for('/index.php'); ?>">Search</a>
+                        <a class="nav-link" href="<?php echo url_for('/search.php'); ?>">Search</a>
                     </li>
                     <li class="nav-item">
                         <a class="btn btn-outline-primary" href="<?php echo url_for('login.php'); ?>">Login</a>
