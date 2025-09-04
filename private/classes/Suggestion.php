@@ -11,26 +11,26 @@ class Suggestion
     private $description;
 
     private const CATEGORY_OPTIONS = [
-        'front_end' => 'Front-end Development',
-        'full_stack' => 'Full-stack Development',
-        'mobile_app' => 'Mobile App Development',
-        'languages' => 'Languages',
-        'ai_ml' => 'Artificial Intelligence & Machine Learning',
-        'data_science' => 'Data Science & Analytics',
-        'cybersecurity' => 'Cybersecurity',
-        'qa_testing' => 'QA & Testing',
-        'devops' => 'DevOps',
-        'game_dev' => 'Game Development',
-        'embedded_iot' => 'Embedded Systems / IoT',
+        'Front-end Development',
+        'Full-stack Development',
+        'Mobile App Development',
+        'Languages',
+        'Artificial Intelligence & Machine Learning',
+        'Data Science & Analytics',
+        'Cybersecurity',
+        'QA & Testing',
+        'DevOps',
+        'Game Development',
+        'Embedded Systems / IoT',
     ];
 
     // CONSTRUCTOR
     public function __construct($args = [])
     {
-        $this->name = $args['name'];
-        $this->url = $args['url'];
-        $this->category = $args['category'];
-        $this->description = $args['description'];
+        $this->name = $args['name'] ?? null;
+        $this->url = $args['url'] ?? null;
+        $this->category = $args['category'] ?? null;
+        $this->description = $args['description'] ?? null;
     }
 
     public function insert()
@@ -56,5 +56,30 @@ class Suggestion
     public static function getCategories(): array
     {
         return self::CATEGORY_OPTIONS;
+    }
+
+    public function getID()
+    {
+        return $this->id;
+    }
+
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function getURL()
+    {
+        return $this->url;
+    }
+
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    public function getDescription()
+    {
+        return $this->description;
     }
 }
