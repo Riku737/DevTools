@@ -24,53 +24,36 @@
             <div class="col-lg-3 col-md-6">
 
                 <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <a class="link">Front-end Development</a>
-                    </li>
-                    <li class="mb-2">
-                        <a class="link">Back-end Development</a>
-                    </li>
-                    <li class="mb-2">
-                        <a class="link">Full-stack Development</a>
-                    </li>
-                    <li class="mb-2">
-                        <a class="link">Mobile App Development</a>
-                    </li>
-                </ul>
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-                <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <a class="link">Languages</a>
-                    </li>
-                    <li class="mb-2">
-                        <a class="link">Artificial Intelligence & Machine Learning</a>
-                    </li>
-                    <li class="mb-2">
-                        <a class="link">Data Science & Analytics</a>
-                    </li>
-                    <li class="mb-2">
-                        <a class="link">Cybersecurity</a>
-                    </li>
+                    @for ($i = 0; $i < 4; $i++)
+                        <li class="mb-2">
+                            <a class="link">{{ $categories[$i]->name }}</a>
+                        </li>
+                    @endfor
 
                 </ul>
             </div>
 
             <div class="col-lg-3 col-md-6">
                 <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <a class="link">QA & Testing</a>
-                    </li>
-                    <li class="mb-2">
-                        <a class="link">DevOps</a>
-                    </li>
-                    <li class="mb-2">
-                        <a class="link">Game Development</a>
-                    </li>
-                    <li>
-                        <a class="link">Embedded Systems / IoT</a>
-                    </li>
+                    @for ($i = 4; $i < 8; $i++)
+                        <li class="mb-2">
+                            <a class="link">{{ $categories[$i]->name }}</a>
+                        </li>
+                    @endfor
+
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <ul class="list-unstyled">
+
+                    @for ($i = 8; $i < 12; $i++)
+                        <li class="mb-2">
+                            <a class="link">{{ $categories[$i]->name }}</a>
+                        </li>
+                    @endfor
+                
                 </ul>
             </div>
 
@@ -90,7 +73,10 @@
             <div class="col-lg-6">
                 <ul class="list-unstyled d-flex justify-content-lg-end flex-row gap-3">
                     <li>
-                        <a class="link" href="https://github.com/Riku737/Devtools" target="_blank">Github</a>
+                        <a class="link" href="https://linkedin.com/in/riki-mcalear/" target="_blank"><i class="bi bi-linkedin me-1"></i>LinkedIn</a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://github.com/Riku737/Devtools" target="_blank"><i class="bi bi-github me-1"></i>Github</a>
                     </li>
                 </ul>
             </div>
