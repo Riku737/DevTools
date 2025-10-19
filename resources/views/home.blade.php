@@ -26,7 +26,7 @@
                         <div class="card-body">
                             <h5 class="card-title fw-bold">{{ $category->name }}</h5>
                             <p class="card-text">{{ $category->description }}</p>
-                            <a href="#" class="link">Open resource</a>
+                            <a href="/categories/{{ $category->slug }}" class="link">Open resource</a>
                         </div>
                     </div>
                 </div>

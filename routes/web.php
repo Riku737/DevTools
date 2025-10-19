@@ -1,7 +1,18 @@
 <?php
 
 use App\Models\Category;
+use App\Models\Subcategory;
 use Illuminate\Support\Facades\Route;
+
+Route::get('/categories/{category:slug}', function (Category $category) {
+    $categories = Category::all();
+    $subcategories = $category->subcategories;
+    return view('categories.index', [
+        'category' => $category,
+        'categories' => $categories,
+        'subcategories' => $subcategories
+    ]);
+});
 
 Route::get('/', function () {
     $categories = Category::all();
@@ -14,15 +25,18 @@ Route::get('/home', function () {
 });
 
 Route::get('/login', function () {
-    return view('login');
+    $categories = Category::all();
+    return view('login', ['categories' => $categories]);
 });
 
 Route::get('/deals', function () {
-    return view('deals');
+    $categories = Category::all();
+    return view('deals', ['categories' => $categories]);
 });
 
 Route::get('/search', function () {
-    return view('search');
+    $categories = Category::all();
+    return view('search', ['categories' => $categories]);
 });
 
 Route::get('/suggest', function () {
@@ -31,5 +45,11 @@ Route::get('/suggest', function () {
 });
 
 Route::get('/resources', function () {
-    return view('resources.index');
+    $categories = Category::all();
+    return view('resources.index', ['categories' => $categories]);
+});
+
+Route::get('/categories', function () {
+    $categories = Category::all();
+    return view('home', ['categories' => $categories]);
 });

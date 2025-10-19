@@ -27,7 +27,7 @@
 
                     @for ($i = 0; $i < 4; $i++)
                         <li class="mb-2">
-                            <a class="link">{{ $categories[$i]->name }}</a>
+                            <a class="link" href="/categories/{{ $categories[$i]->slug }}">{{ $categories[$i]->name }}</a>
                         </li>
                     @endfor
 
@@ -38,7 +38,7 @@
                 <ul class="list-unstyled">
                     @for ($i = 4; $i < 8; $i++)
                         <li class="mb-2">
-                            <a class="link">{{ $categories[$i]->name }}</a>
+                            <a class="link" href="/categories/{{ $categories[$i]->slug }}">{{ $categories[$i]->name }}</a>
                         </li>
                     @endfor
 
@@ -50,7 +50,7 @@
 
                     @for ($i = 8; $i < 12; $i++)
                         <li class="mb-2">
-                            <a class="link">{{ $categories[$i]->name }}</a>
+                            <a class="link" href="/categories/{{ $categories[$i]->slug }}">{{ $categories[$i]->name }}</a>
                         </li>
                     @endfor
                 
