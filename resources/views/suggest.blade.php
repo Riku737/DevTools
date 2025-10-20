@@ -27,12 +27,22 @@
 
             <div class="form-floating mb-3">
                 <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="resource[category]" required>
-                    <option selected>Select a category</option>
+                    <option selected disabled>Select a category</option>
                     @foreach ($categories as $category)
                     <option>{{ $category->name }}</option>
                     @endforeach
                 </select>
                 <label for="floatingSelect">Category</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="resource[subcategory]" required>
+                    <option selected disabled>Select a subcategory</option>
+                    @foreach ($subcategories as $subcategory)
+                    <option>{{ $subcategory->name }}</option>
+                    @endforeach
+                </select>
+                <label for="floatingSelect">Subcategory</label>
             </div>
 
             <div class="form-floating mb-3">

@@ -8,10 +8,10 @@
 
     <div class="row mb-4">
 
-        <div class="col-lg-6">
+        {{-- <div class="col-lg-6"> --}}
             <h1 class="fw-bold">All Your Developer Tools in One Place</h1>
             <p>Discover, organize, and access the resources you need to build faster and smarter.</p>
-        </div>
+        {{-- </div> --}}
 
     </div>
 
@@ -24,9 +24,12 @@
                             <i class="bi bi-{{ $category->icon }} fs-1 text-primary"></i>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">{{ $category->name }}</h5>
+                            <h5 class="card-title ">
+                                <a href="/categories/{{ $category->slug }}" class="link">
+                                    {{ $category->name }}
+                                </a>
+                            </h5>
                             <p class="card-text">{{ $category->description }}</p>
-                            <a href="/categories/{{ $category->slug }}" class="link">Open resource</a>
                         </div>
                     </div>
                 </div>

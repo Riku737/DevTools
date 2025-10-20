@@ -30,4 +30,9 @@ class Subcategory extends Model
     {
         return $this->belongsTo(Subcategory::class, 'subcategory_id');
     }
+
+    public function resources()
+    {
+        return $this->hasMany(Resource::class, 'subcategory_id');
+    }
 }
