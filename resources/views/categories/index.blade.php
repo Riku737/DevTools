@@ -17,6 +17,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="card h-100">
                     <div class="card-body">
+                        {!! $resource->getPricingBadge() !!}
                         <h5 class="card-title">
                             <a href="{{ $resource->url }}" target="_blank" rel="noopener noreferrer">{{ $resource->name }}</a>
                         </h5>

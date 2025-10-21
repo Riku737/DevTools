@@ -18,6 +18,30 @@ class Resource extends Model
     // Timestamps
     public $timestamps = false;
 
+    // PRICING OPTIONS
+    private const PRICING_OPTIONS = [
+        0 => 'Free',
+        1 => 'Freemium',
+        2 => 'Paid',
+    ];
+
+    public function getPricingLabel()
+    {
+        return self::PRICING_OPTIONS[$this->pricing] ?? 'Unknown';
+    }
+
+    public function getPricingBadge()
+    {
+        $badges = [
+            0 => 'badge text-bg-success',
+            1 => 'badge text-bg-warning',
+            2 => 'badge text-bg-danger',
+        ];
+
+        $class = $badges[$this->pricing] ?? 'badge text-bg-dark';
+        return "<span class=\"$class\">{$this->getPricingLabel()}</span>";
+    }
+
     // RELATIONSHIPS
 
     // Each resource belongs to a category
