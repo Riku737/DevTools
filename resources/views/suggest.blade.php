@@ -16,37 +16,33 @@
             </div>
 
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Resource Name" name="resource[name]" required>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Resource Name"
+                    name="resource[name]" required>
                 <label for="floatingInput">Resource Name</label>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Resource URL" name="resource[url]" required>
-                <label for="floatingInput">Resource URL</label>
-            </div>
-
-            <div class="form-floating mb-3">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="resource[category]" required>
-                    <option selected disabled>Select a category</option>
+                <select class="form-select" id="categorySelect" aria-label="Category select" name="resource[category]"
+                    required>
+                    <option selected disabled value="">Select a category</option>
                     @foreach ($categories as $category)
-                    <option>{{ $category->name }}</option>
+                        <option value="{{ $category->id }}">{{ $category->name }}</option>
                     @endforeach
                 </select>
-                <label for="floatingSelect">Category</label>
+                <label for="categorySelect">Category</label>
             </div>
 
             <div class="form-floating mb-3">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="resource[subcategory]" required>
-                    <option selected disabled>Select a subcategory</option>
-                    @foreach ($subcategories as $subcategory)
-                    <option>{{ $subcategory->name }}</option>
-                    @endforeach
+                <select class="form-select" id="subcategorySelect" aria-label="Subcategory select"
+                    name="resource[subcategory]" required>
+                    <option selected disabled value="">Select a subcategory</option>
                 </select>
-                <label for="floatingSelect">Subcategory</label>
+                <label for="subcategorySelect">Subcategory</label>
             </div>
 
             <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px" required name="resource[description]"></textarea>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                    style="height: 100px" required name="resource[description]"></textarea>
                 <label for="floatingTextarea">Short Description</label>
             </div>
 
@@ -58,4 +54,4 @@
 
 </div>
 
-@endsection
+{{-- JavaScript moved to resources/js/suggest.js and imported from resources/js/app.js --}}

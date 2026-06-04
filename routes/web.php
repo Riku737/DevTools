@@ -4,6 +4,13 @@ use App\Models\Category;
 use App\Models\Subcategory;
 use Illuminate\Support\Facades\Route;
 
+// API endpoint to return subcategories for a given category (used by the suggest form)
+Route::get('/api/categories/{category}/subcategories', function (Category $category) {
+    // Return only id and name to keep the payload small
+    $subcats = Subcategory::where('category_id', $category->id)->get(['id', 'name']);
+    return response()->json($subcats);
+});
+
 Route::get('/categories/{category:slug}', function (Category $category) {
     $categories = Category::all(); // Footer
     $subcategories = $category->subcategories; // Subcategories of the selected category
