@@ -38,11 +38,6 @@ Route::get('/login', function () {
     return view('login', ['categories' => $categories]);
 });
 
-Route::get('/deals', function () {
-    $categories = Category::all(); // Footer
-    return view('deals', ['categories' => $categories]);
-});
-
 Route::get('/search', function () {
     $categories = Category::all(); // Footer    
     return view('search', ['categories' => $categories]);

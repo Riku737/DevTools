@@ -41,16 +41,10 @@
                         <a class="nav-link" href="/home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/deals">Deals</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="/search">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary" href="/login">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-primary" href="/suggest">Suggest a resource</a>
+                        <a class="btn btn-outline-primary" href="/suggest">Suggest a resource</a>
                     </li>
                 </ul>
             </div>
