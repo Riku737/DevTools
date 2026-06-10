@@ -1,0 +1,1703 @@
+[
+    {
+        "id": "2",
+        "category_id": "1",
+        "subcategory_id": "1",
+        "name": "MDN Web Docs (HTML & CSS)",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Learn",
+        "description": "Comprehensive documentation and interactive tutorials for HTML & CSS.",
+        "pricing": "1"
+    },
+    {
+        "id": "3",
+        "category_id": "1",
+        "subcategory_id": "1",
+        "name": "CSSNano",
+        "url": "https:\/\/cssnano.co\/",
+        "description": "CSS minifier\/optimiser useful for shrinking stylesheets in builds.",
+        "pricing": "1"
+    },
+    {
+        "id": "4",
+        "category_id": "1",
+        "subcategory_id": "1",
+        "name": "PurgeCSS",
+        "url": "https:\/\/purgecss.com\/",
+        "description": "Tool to remove unused CSS rules and reduce CSS bundle size.",
+        "pricing": "1"
+    },
+    {
+        "id": "5",
+        "category_id": "1",
+        "subcategory_id": "2",
+        "name": "CodeSandbox",
+        "url": "https:\/\/codesandbox.io\/",
+        "description": "Online dev environment and prototyping for JS frameworks.",
+        "pricing": "1"
+    },
+    {
+        "id": "6",
+        "category_id": "1",
+        "subcategory_id": "2",
+        "name": "StackBlitz",
+        "url": "https:\/\/stackblitz.com\/",
+        "description": "Instant webdev containers for Angular\/React\/Vue projects.",
+        "pricing": "1"
+    },
+    {
+        "id": "7",
+        "category_id": "1",
+        "subcategory_id": "2",
+        "name": "Bundlephobia",
+        "url": "https:\/\/bundlephobia.com\/",
+        "description": "Quickly check npm package size and impact for front-end frameworks.",
+        "pricing": "1"
+    },
+    {
+        "id": "8",
+        "category_id": "1",
+        "subcategory_id": "3",
+        "name": "Figma",
+        "url": "https:\/\/www.figma.com\/",
+        "description": "Collaborative UI\/UX design and prototyping tool with dev handoff.",
+        "pricing": "1"
+    },
+    {
+        "id": "9",
+        "category_id": "1",
+        "subcategory_id": "3",
+        "name": "Zeplin",
+        "url": "https:\/\/zeplin.io\/",
+        "description": "Design-to-development handoff tool that exports assets and specs.",
+        "pricing": "1"
+    },
+    {
+        "id": "10",
+        "category_id": "1",
+        "subcategory_id": "3",
+        "name": "UXPin",
+        "url": "https:\/\/www.uxpin.com\/",
+        "description": "Rapid prototyping and design system tooling for UI teams.",
+        "pricing": "1"
+    },
+    {
+        "id": "11",
+        "category_id": "1",
+        "subcategory_id": "4",
+        "name": "Tailwind CSS",
+        "url": "https:\/\/tailwindcss.com\/",
+        "description": "Utility-first CSS framework that speeds up styling.",
+        "pricing": "1"
+    },
+    {
+        "id": "12",
+        "category_id": "1",
+        "subcategory_id": "4",
+        "name": "Bootstrap",
+        "url": "https:\/\/getbootstrap.com\/",
+        "description": "Popular responsive component toolkit and CSS framework.",
+        "pricing": "1"
+    },
+    {
+        "id": "13",
+        "category_id": "1",
+        "subcategory_id": "4",
+        "name": "Bulma",
+        "url": "https:\/\/bulma.io\/",
+        "description": "Modern flexbox CSS framework for rapid UI layout.",
+        "pricing": "1"
+    },
+    {
+        "id": "14",
+        "category_id": "1",
+        "subcategory_id": "5",
+        "name": "Lighthouse",
+        "url": "https:\/\/developers.google.com\/web\/tools\/lighthouse",
+        "description": "Automated audits for performance, accessibility, and best practices.",
+        "pricing": "1"
+    },
+    {
+        "id": "15",
+        "category_id": "1",
+        "subcategory_id": "5",
+        "name": "WebPageTest",
+        "url": "https:\/\/www.webpagetest.org\/",
+        "description": "Detailed page performance testing and waterfall analysis.",
+        "pricing": "1"
+    },
+    {
+        "id": "16",
+        "category_id": "1",
+        "subcategory_id": "5",
+        "name": "Cloudflare CDN",
+        "url": "https:\/\/www.cloudflare.com\/cdn\/",
+        "description": "CDN + optimization features to speed front-end delivery.",
+        "pricing": "1"
+    },
+    {
+        "id": "17",
+        "category_id": "1",
+        "subcategory_id": "6",
+        "name": "axe DevTools",
+        "url": "https:\/\/www.deque.com\/axe\/",
+        "description": "Automated accessibility testing tooling and browser extensions.",
+        "pricing": "1"
+    },
+    {
+        "id": "18",
+        "category_id": "1",
+        "subcategory_id": "6",
+        "name": "WAVE Web Accessibility",
+        "url": "https:\/\/wave.webaim.org\/",
+        "description": "Visual accessibility evaluation for web pages.",
+        "pricing": "1"
+    },
+    {
+        "id": "19",
+        "category_id": "1",
+        "subcategory_id": "6",
+        "name": "Contrast Checker (WebAIM)",
+        "url": "https:\/\/webaim.org\/resources\/contrastchecker\/",
+        "description": "Quick contrast ratio checker for color accessibility.",
+        "pricing": "1"
+    },
+    {
+        "id": "20",
+        "category_id": "1",
+        "subcategory_id": "7",
+        "name": "Vite",
+        "url": "https:\/\/vite.dev\/",
+        "description": "Fast modern dev server and build tool for front-end projects.",
+        "pricing": "1"
+    },
+    {
+        "id": "21",
+        "category_id": "1",
+        "subcategory_id": "7",
+        "name": "Webpack",
+        "url": "https:\/\/webpack.js.org\/",
+        "description": "Flexible bundler to compile JS\/CSS\/assets for production.",
+        "pricing": "1"
+    },
+    {
+        "id": "22",
+        "category_id": "1",
+        "subcategory_id": "7",
+        "name": "esbuild",
+        "url": "https:\/\/esbuild.github.io\/",
+        "description": "Extremely fast bundler\/minifier often used in toolchains.",
+        "pricing": "1"
+    },
+    {
+        "id": "23",
+        "category_id": "2",
+        "subcategory_id": "8",
+        "name": "Express",
+        "url": "https:\/\/expressjs.com\/",
+        "description": "Minimal Node.js web framework for building servers and APIs.",
+        "pricing": "1"
+    },
+    {
+        "id": "24",
+        "category_id": "2",
+        "subcategory_id": "8",
+        "name": "Spring Boot",
+        "url": "https:\/\/spring.io\/projects\/spring-boot",
+        "description": "Rapid Java-based backend framework for microservices.",
+        "pricing": "1"
+    },
+    {
+        "id": "25",
+        "category_id": "2",
+        "subcategory_id": "8",
+        "name": "Django",
+        "url": "https:\/\/www.djangoproject.com\/",
+        "description": "High-level Python web framework for fast backend development.",
+        "pricing": "1"
+    },
+    {
+        "id": "26",
+        "category_id": "2",
+        "subcategory_id": "9",
+        "name": "Postman",
+        "url": "https:\/\/www.postman.com\/",
+        "description": "API design, testing and collaboration platform.",
+        "pricing": "1"
+    },
+    {
+        "id": "27",
+        "category_id": "2",
+        "subcategory_id": "9",
+        "name": "Swagger \/ OpenAPI",
+        "url": "https:\/\/swagger.io\/",
+        "description": "API specification tooling for docs, client\/server stubs and testing.",
+        "pricing": "1"
+    },
+    {
+        "id": "28",
+        "category_id": "2",
+        "subcategory_id": "9",
+        "name": "Insomnia",
+        "url": "https:\/\/insomnia.rest\/",
+        "description": "REST\/GraphQL client for API testing and debugging.",
+        "pricing": "1"
+    },
+    {
+        "id": "29",
+        "category_id": "2",
+        "subcategory_id": "10",
+        "name": "pgAdmin",
+        "url": "https:\/\/www.pgadmin.org\/",
+        "description": "GUI for managing PostgreSQL databases.",
+        "pricing": "0"
+    },
+    {
+        "id": "30",
+        "category_id": "2",
+        "subcategory_id": "10",
+        "name": "Adminer",
+        "url": "https:\/\/www.adminer.org\/",
+        "description": "Lightweight DB management tool supporting many DB engines.",
+        "pricing": "1"
+    },
+    {
+        "id": "31",
+        "category_id": "2",
+        "subcategory_id": "10",
+        "name": "MongoDB Compass",
+        "url": "https:\/\/www.mongodb.com\/products\/compass",
+        "description": "GUI for exploring and managing MongoDB collections.",
+        "pricing": "1"
+    },
+    {
+        "id": "32",
+        "category_id": "2",
+        "subcategory_id": "11",
+        "name": "Auth0",
+        "url": "https:\/\/auth0.com\/",
+        "description": "Identity as a service for authentication and user management.",
+        "pricing": "1"
+    },
+    {
+        "id": "33",
+        "category_id": "2",
+        "subcategory_id": "11",
+        "name": "Okta",
+        "url": "https:\/\/www.okta.com\/",
+        "description": "Cloud identity provider for auth, SSO and lifecycle management.",
+        "pricing": "1"
+    },
+    {
+        "id": "34",
+        "category_id": "2",
+        "subcategory_id": "11",
+        "name": "Keycloak",
+        "url": "https:\/\/www.keycloak.org\/",
+        "description": "Open-source identity and access management server.",
+        "pricing": "1"
+    },
+    {
+        "id": "35",
+        "category_id": "2",
+        "subcategory_id": "12",
+        "name": "Docker",
+        "url": "https:\/\/www.docker.com\/",
+        "description": "Containerization to package microservices consistently.",
+        "pricing": "0"
+    },
+    {
+        "id": "36",
+        "category_id": "2",
+        "subcategory_id": "12",
+        "name": "Kong Gateway",
+        "url": "https:\/\/konghq.com\/",
+        "description": "API gateway for managing microservice traffic and plugins.",
+        "pricing": "1"
+    },
+    {
+        "id": "37",
+        "category_id": "2",
+        "subcategory_id": "12",
+        "name": "Istio",
+        "url": "https:\/\/istio.io\/",
+        "description": "Service mesh for microservices traffic management and security.",
+        "pricing": "1"
+    },
+    {
+        "id": "38",
+        "category_id": "2",
+        "subcategory_id": "13",
+        "name": "Redis",
+        "url": "https:\/\/redis.io\/",
+        "description": "In-memory data store for caching and fast access patterns.",
+        "pricing": "1"
+    },
+    {
+        "id": "39",
+        "category_id": "2",
+        "subcategory_id": "13",
+        "name": "Varnish",
+        "url": "https:\/\/varnish-cache.org\/",
+        "description": "HTTP accelerator to cache and speed up web content delivery.",
+        "pricing": "1"
+    },
+    {
+        "id": "40",
+        "category_id": "2",
+        "subcategory_id": "13",
+        "name": "Memcached",
+        "url": "https:\/\/memcached.org\/",
+        "description": "High-performance distributed memory caching system.",
+        "pricing": "1"
+    },
+    {
+        "id": "41",
+        "category_id": "2",
+        "subcategory_id": "14",
+        "name": "RabbitMQ",
+        "url": "https:\/\/www.rabbitmq.com\/",
+        "description": "Robust messaging broker used for background jobs and decoupling.",
+        "pricing": "1"
+    },
+    {
+        "id": "42",
+        "category_id": "2",
+        "subcategory_id": "14",
+        "name": "Apache Kafka",
+        "url": "https:\/\/kafka.apache.org\/",
+        "description": "Distributed streaming platform for real-time event pipelines.",
+        "pricing": "1"
+    },
+    {
+        "id": "43",
+        "category_id": "2",
+        "subcategory_id": "14",
+        "name": "Amazon SQS",
+        "url": "https:\/\/aws.amazon.com\/sqs\/",
+        "description": "Managed message queuing service for decoupled architectures.",
+        "pricing": "1"
+    },
+    {
+        "id": "44",
+        "category_id": "3",
+        "subcategory_id": "15",
+        "name": "Create React App",
+        "url": "https:\/\/create-react-app.dev\/",
+        "description": "React starter scaffolding used in MERN projects.",
+        "pricing": "1"
+    },
+    {
+        "id": "45",
+        "category_id": "3",
+        "subcategory_id": "15",
+        "name": "MongoDB Atlas",
+        "url": "https:\/\/www.mongodb.com\/cloud\/atlas",
+        "description": "Managed MongoDB to host the “M” in MERN quickly.",
+        "pricing": "2"
+    },
+    {
+        "id": "46",
+        "category_id": "3",
+        "subcategory_id": "15",
+        "name": "Express Generator",
+        "url": "https:\/\/expressjs.com\/en\/starter\/generator.html",
+        "description": "Scaffold Express backends to pair with React frontends.",
+        "pricing": "1"
+    },
+    {
+        "id": "47",
+        "category_id": "3",
+        "subcategory_id": "16",
+        "name": "Angular CLI",
+        "url": "https:\/\/angular.io\/cli",
+        "description": "Scaffold and build Angular apps for MEAN projects.",
+        "pricing": "1"
+    },
+    {
+        "id": "48",
+        "category_id": "3",
+        "subcategory_id": "16",
+        "name": "MongoDB Atlas",
+        "url": "https:\/\/www.mongodb.com\/cloud\/atlas",
+        "description": "Managed DB for Mongo component of MEAN stacks.",
+        "pricing": "2"
+    },
+    {
+        "id": "49",
+        "category_id": "3",
+        "subcategory_id": "16",
+        "name": "NestJS",
+        "url": "https:\/\/nestjs.com\/",
+        "description": "Node.js framework that pairs well with Angular for full-stack structure.",
+        "pricing": "1"
+    },
+    {
+        "id": "50",
+        "category_id": "3",
+        "subcategory_id": "17",
+        "name": "Django REST Framework",
+        "url": "https:\/\/www.django-rest-framework.org\/",
+        "description": "Toolset to build APIs in Django consumed by React front-ends.",
+        "pricing": "1"
+    },
+    {
+        "id": "51",
+        "category_id": "3",
+        "subcategory_id": "17",
+        "name": "Create React App",
+        "url": "https:\/\/create-react-app.dev\/",
+        "description": "React scaffold to build the front end for Django APIs.",
+        "pricing": "1"
+    },
+    {
+        "id": "52",
+        "category_id": "3",
+        "subcategory_id": "17",
+        "name": "Whitenoise",
+        "url": "http:\/\/whitenoise.evans.io\/en\/stable\/",
+        "description": "Serve static files for Django + React deployments simply.",
+        "pricing": "1"
+    },
+    {
+        "id": "53",
+        "category_id": "3",
+        "subcategory_id": "18",
+        "name": "Rails",
+        "url": "https:\/\/rubyonrails.org\/",
+        "description": "Full-stack web framework that accelerates backend + frontend scaffolding.",
+        "pricing": "1"
+    },
+    {
+        "id": "54",
+        "category_id": "3",
+        "subcategory_id": "18",
+        "name": "Hotwire",
+        "url": "https:\/\/hotwire.dev\/",
+        "description": "Lightweight interactivity for Rails apps without heavy JS frameworks.",
+        "pricing": "1"
+    },
+    {
+        "id": "55",
+        "category_id": "3",
+        "subcategory_id": "18",
+        "name": "Heroku",
+        "url": "https:\/\/www.heroku.com\/",
+        "description": "Easy Rails deployment platform for rapid prototyping.",
+        "pricing": "1"
+    },
+    {
+        "id": "56",
+        "category_id": "3",
+        "subcategory_id": "19",
+        "name": "Laravel",
+        "url": "https:\/\/laravel.com\/",
+        "description": "PHP framework with built-in tooling to speed full-stack apps.",
+        "pricing": "1"
+    },
+    {
+        "id": "57",
+        "category_id": "3",
+        "subcategory_id": "19",
+        "name": "Laravel Mix",
+        "url": "https:\/\/laravel.com\/docs\/9.x\/mix",
+        "description": "Asset compilation tool that integrates with Vue and Laravel.",
+        "pricing": "1"
+    },
+    {
+        "id": "58",
+        "category_id": "3",
+        "subcategory_id": "19",
+        "name": "Inertia.js",
+        "url": "https:\/\/inertiajs.com\/",
+        "description": "Build single-page apps using server frameworks like Laravel with Vue.",
+        "pricing": "1"
+    },
+    {
+        "id": "59",
+        "category_id": "3",
+        "subcategory_id": "20",
+        "name": "Next.js",
+        "url": "https:\/\/nextjs.org\/",
+        "description": "React framework for server-side rendering and static export.",
+        "pricing": "1"
+    },
+    {
+        "id": "60",
+        "category_id": "3",
+        "subcategory_id": "20",
+        "name": "Vercel",
+        "url": "https:\/\/vercel.com\/",
+        "description": "Deploy Next.js apps with edge features and previews.",
+        "pricing": "1"
+    },
+    {
+        "id": "61",
+        "category_id": "3",
+        "subcategory_id": "20",
+        "name": "Nuxt.js",
+        "url": "https:\/\/nuxtjs.org\/",
+        "description": "Vue framework for SSR and static generation similar to Next.js.",
+        "pricing": "1"
+    },
+    {
+        "id": "62",
+        "category_id": "3",
+        "subcategory_id": "21",
+        "name": "GitHub Actions",
+        "url": "https:\/\/github.com\/features\/actions",
+        "description": "CI\/CD automation for builds, tests and deployments.",
+        "pricing": "0"
+    },
+    {
+        "id": "63",
+        "category_id": "3",
+        "subcategory_id": "21",
+        "name": "CircleCI",
+        "url": "https:\/\/circleci.com\/",
+        "description": "Cloud CI\/CD platform for automating pipelines.",
+        "pricing": "1"
+    },
+    {
+        "id": "64",
+        "category_id": "3",
+        "subcategory_id": "21",
+        "name": "Docker Hub",
+        "url": "https:\/\/hub.docker.com\/",
+        "description": "Host and distribute container images for deployment pipelines.",
+        "pricing": "1"
+    },
+    {
+        "id": "65",
+        "category_id": "4",
+        "subcategory_id": "22",
+        "name": "Xcode",
+        "url": "https:\/\/developer.apple.com\/xcode\/",
+        "description": "Apple’s IDE for building iOS applications.",
+        "pricing": "1"
+    },
+    {
+        "id": "66",
+        "category_id": "4",
+        "subcategory_id": "22",
+        "name": "TestFlight",
+        "url": "https:\/\/developer.apple.com\/testflight\/",
+        "description": "Apple beta distribution platform for iOS app testing.",
+        "pricing": "1"
+    },
+    {
+        "id": "67",
+        "category_id": "4",
+        "subcategory_id": "22",
+        "name": "CocoaPods",
+        "url": "https:\/\/cocoapods.org\/",
+        "description": "Dependency manager for iOS projects to speed integration.",
+        "pricing": "1"
+    },
+    {
+        "id": "68",
+        "category_id": "4",
+        "subcategory_id": "23",
+        "name": "Android Studio",
+        "url": "https:\/\/developer.android.com\/studio",
+        "description": "Official IDE for Android app development and debugging.",
+        "pricing": "1"
+    },
+    {
+        "id": "69",
+        "category_id": "4",
+        "subcategory_id": "23",
+        "name": "ADB (Android Debug Bridge)",
+        "url": "https:\/\/developer.android.com\/studio\/command-line\/adb",
+        "description": "Command-line tool for device debugging and automation.",
+        "pricing": "1"
+    },
+    {
+        "id": "70",
+        "category_id": "4",
+        "subcategory_id": "23",
+        "name": "Gradle",
+        "url": "https:\/\/gradle.org\/",
+        "description": "Build automation tool used by Android projects for builds and flavors.",
+        "pricing": "1"
+    },
+    {
+        "id": "71",
+        "category_id": "4",
+        "subcategory_id": "24",
+        "name": "Flutter",
+        "url": "https:\/\/flutter.dev\/",
+        "description": "UI toolkit for building native compiled apps for mobile from one codebase.",
+        "pricing": "0"
+    },
+    {
+        "id": "72",
+        "category_id": "4",
+        "subcategory_id": "24",
+        "name": "React Native",
+        "url": "https:\/\/reactnative.dev\/",
+        "description": "Build native mobile apps using React and JS.",
+        "pricing": "0"
+    },
+    {
+        "id": "73",
+        "category_id": "4",
+        "subcategory_id": "24",
+        "name": "Ionic",
+        "url": "https:\/\/ionicframework.com\/",
+        "description": "Hybrid cross-platform mobile framework built on web technologies.",
+        "pricing": "0"
+    },
+    {
+        "id": "74",
+        "category_id": "4",
+        "subcategory_id": "25",
+        "name": "Figma Mobile Kit",
+        "url": "https:\/\/www.figma.com\/",
+        "description": "Mobile UI kits and prototyping for app UX design and handoff.",
+        "pricing": "1"
+    },
+    {
+        "id": "75",
+        "category_id": "4",
+        "subcategory_id": "25",
+        "name": "Adobe XD",
+        "url": "https:\/\/www.adobe.com\/products\/xd.html",
+        "description": "Design and prototyping tool focused on mobile app flows.",
+        "pricing": "1"
+    },
+    {
+        "id": "76",
+        "category_id": "4",
+        "subcategory_id": "25",
+        "name": "ProtoPie",
+        "url": "https:\/\/www.protopie.io\/",
+        "description": "High-fidelity interactive prototyping for mobile interactions.",
+        "pricing": "1"
+    },
+    {
+        "id": "77",
+        "category_id": "4",
+        "subcategory_id": "26",
+        "name": "Android Profiler",
+        "url": "https:\/\/developer.android.com\/studio\/profile",
+        "description": "Profiling tools for CPU, memory and network in Android apps.",
+        "pricing": "1"
+    },
+    {
+        "id": "78",
+        "category_id": "4",
+        "subcategory_id": "26",
+        "name": "Instruments (Xcode)",
+        "url": "https:\/\/developer.apple.com\/documentation\/instruments",
+        "description": "Performance and memory profiling tools for iOS apps.",
+        "pricing": "1"
+    },
+    {
+        "id": "79",
+        "category_id": "4",
+        "subcategory_id": "26",
+        "name": "Sentry Mobile",
+        "url": "https:\/\/sentry.io\/product\/platforms\/mobile\/",
+        "description": "Crash reporting and performance monitoring for mobile apps.",
+        "pricing": "1"
+    },
+    {
+        "id": "80",
+        "category_id": "4",
+        "subcategory_id": "27",
+        "name": "Google Play Console",
+        "url": "https:\/\/play.google.com\/console",
+        "description": "App store tools for monetization, subscriptions and analytics.",
+        "pricing": "1"
+    },
+    {
+        "id": "81",
+        "category_id": "4",
+        "subcategory_id": "27",
+        "name": "Apple App Store Connect",
+        "url": "https:\/\/appstoreconnect.apple.com\/",
+        "description": "Manage app sales, in-app purchases and app analytics.",
+        "pricing": "1"
+    },
+    {
+        "id": "82",
+        "category_id": "4",
+        "subcategory_id": "27",
+        "name": "AdMob",
+        "url": "https:\/\/admob.google.com\/",
+        "description": "Mobile ad network for app monetization and mediation.",
+        "pricing": "1"
+    },
+    {
+        "id": "83",
+        "category_id": "4",
+        "subcategory_id": "28",
+        "name": "Firebase Test Lab",
+        "url": "https:\/\/firebase.google.com\/products\/test-lab",
+        "description": "Run automated tests on real and virtual devices in the cloud.",
+        "pricing": "0"
+    },
+    {
+        "id": "84",
+        "category_id": "4",
+        "subcategory_id": "28",
+        "name": "Appium",
+        "url": "https:\/\/appium.io\/",
+        "description": "Cross-platform automation framework for mobile UI testing.",
+        "pricing": "0"
+    },
+    {
+        "id": "85",
+        "category_id": "4",
+        "subcategory_id": "28",
+        "name": "BrowserStack App Live",
+        "url": "https:\/\/www.browserstack.com\/app-live",
+        "description": "Manual testing on real mobile devices via browser.",
+        "pricing": "1"
+    },
+    {
+        "id": "86",
+        "category_id": "5",
+        "subcategory_id": "29",
+        "name": "Node.js",
+        "url": "https:\/\/nodejs.org\/",
+        "description": "JavaScript runtime for server and tooling tasks.",
+        "pricing": "1"
+    },
+    {
+        "id": "87",
+        "category_id": "5",
+        "subcategory_id": "29",
+        "name": "ESLint",
+        "url": "https:\/\/eslint.org\/",
+        "description": "Pluggable linter to keep JS code consistent and error-free.",
+        "pricing": "1"
+    },
+    {
+        "id": "88",
+        "category_id": "5",
+        "subcategory_id": "29",
+        "name": "Babel",
+        "url": "https:\/\/babeljs.io\/",
+        "description": "JavaScript compiler for using next-gen syntax in current environments.",
+        "pricing": "1"
+    },
+    {
+        "id": "89",
+        "category_id": "5",
+        "subcategory_id": "30",
+        "name": "PyPI",
+        "url": "https:\/\/pypi.org\/",
+        "description": "Python package index to find libraries that speed development.",
+        "pricing": "1"
+    },
+    {
+        "id": "90",
+        "category_id": "5",
+        "subcategory_id": "30",
+        "name": "pipenv",
+        "url": "https:\/\/pipenv.pypa.io\/",
+        "description": "Dependency and virtualenv manager to streamline Python projects.",
+        "pricing": "1"
+    },
+    {
+        "id": "91",
+        "category_id": "5",
+        "subcategory_id": "30",
+        "name": "Black",
+        "url": "https:\/\/black.readthedocs.io\/",
+        "description": "Opinionated code formatter to standardize Python code style.",
+        "pricing": "1"
+    },
+    {
+        "id": "92",
+        "category_id": "5",
+        "subcategory_id": "31",
+        "name": "Maven",
+        "url": "https:\/\/maven.apache.org\/",
+        "description": "Build and dependency management for Java projects.",
+        "pricing": "1"
+    },
+    {
+        "id": "93",
+        "category_id": "5",
+        "subcategory_id": "31",
+        "name": "Gradle",
+        "url": "https:\/\/gradle.org\/",
+        "description": "Modern build automation system for Java and other languages.",
+        "pricing": "1"
+    },
+    {
+        "id": "94",
+        "category_id": "5",
+        "subcategory_id": "31",
+        "name": "JDK (Oracle\/OpenJDK)",
+        "url": "https:\/\/openjdk.org\/",
+        "description": "Java runtime and toolchain for compiling and running Java apps.",
+        "pricing": "1"
+    },
+    {
+        "id": "95",
+        "category_id": "5",
+        "subcategory_id": "32",
+        "name": "Visual Studio",
+        "url": "https:\/\/visualstudio.microsoft.com\/",
+        "description": "Feature-rich IDE for C# development and debugging.",
+        "pricing": "1"
+    },
+    {
+        "id": "96",
+        "category_id": "5",
+        "subcategory_id": "32",
+        "name": ".NET SDK",
+        "url": "https:\/\/dotnet.microsoft.com\/",
+        "description": "Framework and CLI tooling for building C# applications.",
+        "pricing": "1"
+    },
+    {
+        "id": "97",
+        "category_id": "5",
+        "subcategory_id": "32",
+        "name": "NuGet",
+        "url": "https:\/\/www.nuget.org\/",
+        "description": "Package manager for .NET dependencies to speed development.",
+        "pricing": "1"
+    },
+    {
+        "id": "98",
+        "category_id": "5",
+        "subcategory_id": "33",
+        "name": "CPPReference",
+        "url": "https:\/\/en.cppreference.com\/",
+        "description": "Comprehensive C++ reference for language and stdlib.",
+        "pricing": "1"
+    },
+    {
+        "id": "99",
+        "category_id": "5",
+        "subcategory_id": "34",
+        "name": "PHP Sandbox",
+        "url": "https:\/\/phpsandbox.io\/",
+        "description": "Online PHP environment to prototype and share PHP code snippets quickly.",
+        "pricing": "0"
+    },
+    {
+        "id": "100",
+        "category_id": "5",
+        "subcategory_id": "35",
+        "name": "Try Ruby",
+        "url": "https:\/\/try.ruby-lang.org\/",
+        "description": "Interactive in-browser Ruby shell for quick experimentation with Ruby code.",
+        "pricing": "0"
+    },
+    {
+        "id": "101",
+        "category_id": "6",
+        "subcategory_id": "36",
+        "name": "Kaggle Datasets",
+        "url": "https:\/\/www.kaggle.com\/datasets",
+        "description": "Repository of public datasets used for machine learning and AI experimentation.",
+        "pricing": "0"
+    },
+    {
+        "id": "102",
+        "category_id": "6",
+        "subcategory_id": "37",
+        "name": "Google Colab",
+        "url": "https:\/\/colab.research.google.com\/",
+        "description": "Free cloud-based Jupyter notebook environment with GPU support for ML workflows.",
+        "pricing": "0"
+    },
+    {
+        "id": "103",
+        "category_id": "6",
+        "subcategory_id": "38",
+        "name": "AutoML by Google Cloud",
+        "url": "https:\/\/cloud.google.com\/automl",
+        "description": "Tool to train custom ML models with minimal code.",
+        "pricing": "2"
+    },
+    {
+        "id": "104",
+        "category_id": "6",
+        "subcategory_id": "39",
+        "name": "Lobe.ai",
+        "url": "https:\/\/www.lobe.ai\/",
+        "description": "Visual tool by Microsoft for building and training ML models without coding.",
+        "pricing": "1"
+    },
+    {
+        "id": "105",
+        "category_id": "6",
+        "subcategory_id": "40",
+        "name": "Weights & Biases",
+        "url": "https:\/\/wandb.ai\/",
+        "description": "Experiment tracking, dataset versioning, and collaboration platform for AI\/ML teams.",
+        "pricing": "1"
+    },
+    {
+        "id": "106",
+        "category_id": "6",
+        "subcategory_id": "41",
+        "name": "Evidently AI",
+        "url": "https:\/\/evidentlyai.com\/",
+        "description": "Open-source tool for model monitoring and explainability.",
+        "pricing": "0"
+    },
+    {
+        "id": "107",
+        "category_id": "6",
+        "subcategory_id": "42",
+        "name": "DataRobot",
+        "url": "https:\/\/www.datarobot.com\/",
+        "description": "Automated machine learning platform that accelerates AI model development.",
+        "pricing": "2"
+    },
+    {
+        "id": "108",
+        "category_id": "7",
+        "subcategory_id": "43",
+        "name": "Metabase",
+        "url": "https:\/\/www.metabase.com\/",
+        "description": "Open-source business intelligence tool for querying and visualizing data.",
+        "pricing": "0"
+    },
+    {
+        "id": "109",
+        "category_id": "7",
+        "subcategory_id": "44",
+        "name": "Apache Superset",
+        "url": "https:\/\/superset.apache.org\/",
+        "description": "Modern data exploration and visualization platform for data analytics.",
+        "pricing": "0"
+    },
+    {
+        "id": "110",
+        "category_id": "7",
+        "subcategory_id": "45",
+        "name": "Redash",
+        "url": "https:\/\/redash.io\/",
+        "description": "Data visualization tool that connects to many data sources easily.",
+        "pricing": "1"
+    },
+    {
+        "id": "111",
+        "category_id": "7",
+        "subcategory_id": "46",
+        "name": "Talend Open Studio",
+        "url": "https:\/\/www.talend.com\/products\/data-integration\/",
+        "description": "Open-source ETL tool for data extraction, transformation, and loading.",
+        "pricing": "0"
+    },
+    {
+        "id": "112",
+        "category_id": "7",
+        "subcategory_id": "47",
+        "name": "Google BigQuery",
+        "url": "https:\/\/cloud.google.com\/bigquery",
+        "description": "Serverless, highly scalable cloud data warehouse for analytics.",
+        "pricing": "2"
+    },
+    {
+        "id": "113",
+        "category_id": "7",
+        "subcategory_id": "48",
+        "name": "Looker Studio",
+        "url": "https:\/\/lookerstudio.google.com\/",
+        "description": "Data visualization and analytics tool by Google for interactive dashboards.",
+        "pricing": "1"
+    },
+    {
+        "id": "114",
+        "category_id": "7",
+        "subcategory_id": "49",
+        "name": "Apache NiFi",
+        "url": "https:\/\/nifi.apache.org\/",
+        "description": "Dataflow automation tool for processing and distributing data efficiently.",
+        "pricing": "0"
+    },
+    {
+        "id": "115",
+        "category_id": "8",
+        "subcategory_id": "50",
+        "name": "Shodan",
+        "url": "https:\/\/www.shodan.io\/",
+        "description": "Search engine for Internet-connected devices used in cybersecurity reconnaissance.",
+        "pricing": "1"
+    },
+    {
+        "id": "116",
+        "category_id": "8",
+        "subcategory_id": "51",
+        "name": "VirusTotal",
+        "url": "https:\/\/www.virustotal.com\/",
+        "description": "Online tool to scan files and URLs for malware detection.",
+        "pricing": "0"
+    },
+    {
+        "id": "117",
+        "category_id": "8",
+        "subcategory_id": "52",
+        "name": "Burp Suite",
+        "url": "https:\/\/portswigger.net\/burp",
+        "description": "Security testing toolkit for web vulnerability scanning and pen-testing.",
+        "pricing": "2"
+    },
+    {
+        "id": "118",
+        "category_id": "8",
+        "subcategory_id": "53",
+        "name": "OWASP Dependency-Check",
+        "url": "https:\/\/owasp.org\/www-project-dependency-check\/",
+        "description": "Tool for detecting publicly known vulnerabilities in project dependencies.",
+        "pricing": "0"
+    },
+    {
+        "id": "119",
+        "category_id": "8",
+        "subcategory_id": "54",
+        "name": "Autopsy",
+        "url": "https:\/\/www.autopsy.com\/",
+        "description": "Digital forensics tool for analyzing disks and smartphones.",
+        "pricing": "0"
+    },
+    {
+        "id": "120",
+        "category_id": "8",
+        "subcategory_id": "55",
+        "name": "TheHive Project",
+        "url": "https:\/\/thehive-project.org\/",
+        "description": "Open-source incident response platform for SOC teams.",
+        "pricing": "0"
+    },
+    {
+        "id": "121",
+        "category_id": "8",
+        "subcategory_id": "56",
+        "name": "Cuckoo Sandbox",
+        "url": "https:\/\/cuckoosandbox.org\/",
+        "description": "Automated malware analysis system for dynamic behavior analysis.",
+        "pricing": "0"
+    },
+    {
+        "id": "122",
+        "category_id": "9",
+        "subcategory_id": "57",
+        "name": "Postman",
+        "url": "https:\/\/www.postman.com\/",
+        "description": "API testing and automation platform for QA engineers.",
+        "pricing": "1"
+    },
+    {
+        "id": "123",
+        "category_id": "9",
+        "subcategory_id": "58",
+        "name": "Testim.io",
+        "url": "https:\/\/www.testim.io\/",
+        "description": "AI-powered tool for automating web application testing.",
+        "pricing": "1"
+    },
+    {
+        "id": "124",
+        "category_id": "9",
+        "subcategory_id": "59",
+        "name": "Katalon Studio",
+        "url": "https:\/\/katalon.com\/",
+        "description": "Comprehensive tool for web, API, mobile, and desktop automation testing.",
+        "pricing": "1"
+    },
+    {
+        "id": "125",
+        "category_id": "9",
+        "subcategory_id": "60",
+        "name": "BrowserStack",
+        "url": "https:\/\/www.browserstack.com\/",
+        "description": "Cross-browser testing platform for web and mobile apps.",
+        "pricing": "2"
+    },
+    {
+        "id": "126",
+        "category_id": "9",
+        "subcategory_id": "61",
+        "name": "Applitools",
+        "url": "https:\/\/applitools.com\/",
+        "description": "Visual testing and monitoring tool for UI validation.",
+        "pricing": "2"
+    },
+    {
+        "id": "127",
+        "category_id": "9",
+        "subcategory_id": "62",
+        "name": "LambdaTest",
+        "url": "https:\/\/www.lambdatest.com\/",
+        "description": "Cloud testing platform for cross-browser and cross-device testing.",
+        "pricing": "1"
+    },
+    {
+        "id": "128",
+        "category_id": "9",
+        "subcategory_id": "63",
+        "name": "TestSigma",
+        "url": "https:\/\/testsigma.com\/",
+        "description": "AI-driven test automation platform for web and mobile apps.",
+        "pricing": "1"
+    },
+    {
+        "id": "129",
+        "category_id": "10",
+        "subcategory_id": "64",
+        "name": "ArgoCD",
+        "url": "https:\/\/argo-cd.readthedocs.io\/",
+        "description": "Continuous delivery tool for Kubernetes-based deployments.",
+        "pricing": "0"
+    },
+    {
+        "id": "130",
+        "category_id": "10",
+        "subcategory_id": "65",
+        "name": "Helm",
+        "url": "https:\/\/helm.sh\/",
+        "description": "Kubernetes package manager simplifying application deployment.",
+        "pricing": "0"
+    },
+    {
+        "id": "131",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "PagerDuty",
+        "url": "https:\/\/www.pagerduty.com\/",
+        "description": "Incident response automation platform for DevOps and SRE teams.",
+        "pricing": "2"
+    },
+    {
+        "id": "132",
+        "category_id": "10",
+        "subcategory_id": "67",
+        "name": "New Relic",
+        "url": "https:\/\/newrelic.com\/",
+        "description": "Performance monitoring and observability tool for DevOps teams.",
+        "pricing": "2"
+    },
+    {
+        "id": "133",
+        "category_id": "10",
+        "subcategory_id": "68",
+        "name": "Snyk",
+        "url": "https:\/\/snyk.io\/",
+        "description": "Developer-first security tool for finding and fixing vulnerabilities in code dependencies.",
+        "pricing": "1"
+    },
+    {
+        "id": "134",
+        "category_id": "10",
+        "subcategory_id": "69",
+        "name": "Bitbucket Pipelines",
+        "url": "https:\/\/bitbucket.org\/product\/features\/pipelines",
+        "description": "Integrated CI\/CD tool in Bitbucket for automated build and deployment.",
+        "pricing": "1"
+    },
+    {
+        "id": "135",
+        "category_id": "10",
+        "subcategory_id": "70",
+        "name": "AWS CloudFormation",
+        "url": "https:\/\/aws.amazon.com\/cloudformation\/",
+        "description": "Infrastructure-as-code tool for managing AWS cloud resources.",
+        "pricing": "2"
+    },
+    {
+        "id": "136",
+        "category_id": "11",
+        "subcategory_id": "71",
+        "name": "Itch.io Tools",
+        "url": "https:\/\/itch.io\/developers",
+        "description": "Publishing and distribution platform for indie game developers.",
+        "pricing": "0"
+    },
+    {
+        "id": "137",
+        "category_id": "11",
+        "subcategory_id": "72",
+        "name": "Mixamo",
+        "url": "https:\/\/www.mixamo.com\/",
+        "description": "Online 3D character rigging and animation tool for game developers.",
+        "pricing": "0"
+    },
+    {
+        "id": "138",
+        "category_id": "11",
+        "subcategory_id": "73",
+        "name": "Tiled Map Editor",
+        "url": "https:\/\/www.mapeditor.org\/",
+        "description": "Free and open-source map editor for creating tile-based levels and worlds for 2D games.",
+        "pricing": "0"
+    },
+    {
+        "id": "139",
+        "category_id": "11",
+        "subcategory_id": "74",
+        "name": "GDevelop",
+        "url": "https:\/\/gdevelop.io\/",
+        "description": "Free and open-source game engine with a visual event system for building 2D, 3D, and multiplayer games.",
+        "pricing": "1"
+    },
+    {
+        "id": "140",
+        "category_id": "11",
+        "subcategory_id": "75",
+        "name": "FMOD Studio",
+        "url": "https:\/\/www.fmod.com\/",
+        "description": "Middleware and tool for adaptive audio in games, allowing designers to build dynamic soundscapes.",
+        "pricing": "2"
+    },
+    {
+        "id": "141",
+        "category_id": "11",
+        "subcategory_id": "76",
+        "name": "Unity Asset Store",
+        "url": "https:\/\/assetstore.unity.com\/",
+        "description": "Official Unity marketplace offering assets, tools, templates, and plugins for game development.",
+        "pricing": "1"
+    },
+    {
+        "id": "142",
+        "category_id": "11",
+        "subcategory_id": "77",
+        "name": "RenderDoc",
+        "url": "https:\/\/renderdoc.org\/",
+        "description": "Free open-source frame debugger for Vulkan, Direct3D, and OpenGL that helps inspect GPU workloads and rendering performance.",
+        "pricing": "0"
+    },
+    {
+        "id": "143",
+        "category_id": "12",
+        "subcategory_id": "78",
+        "name": "Tinkercad Circuits",
+        "url": "https:\/\/www.tinkercad.com\/circuits",
+        "description": "Online circuit simulator and IoT prototyping tool by Autodesk.",
+        "pricing": "0"
+    },
+    {
+        "id": "144",
+        "category_id": "12",
+        "subcategory_id": "79",
+        "name": "Blynk IoT Platform",
+        "url": "https:\/\/blynk.io\/",
+        "description": "Platform for building mobile and web dashboards for IoT projects.",
+        "pricing": "1"
+    },
+    {
+        "id": "145",
+        "category_id": "12",
+        "subcategory_id": "80",
+        "name": "Particle.io",
+        "url": "https:\/\/www.particle.io\/",
+        "description": "Cloud-connected IoT development platform for embedded hardware.",
+        "pricing": "1"
+    },
+    {
+        "id": "146",
+        "category_id": "12",
+        "subcategory_id": "81",
+        "name": "Adafruit IO",
+        "url": "https:\/\/io.adafruit.com\/",
+        "description": "IoT platform for connecting and visualizing device data.",
+        "pricing": "1"
+    },
+    {
+        "id": "147",
+        "category_id": "12",
+        "subcategory_id": "82",
+        "name": "MQTT Explorer",
+        "url": "http:\/\/mqtt-explorer.com\/",
+        "description": "Graphical MQTT client for debugging and testing IoT device communication.",
+        "pricing": "0"
+    },
+    {
+        "id": "148",
+        "category_id": "12",
+        "subcategory_id": "83",
+        "name": "Balena",
+        "url": "https:\/\/www.balena.io\/",
+        "description": "IoT device fleet management platform for container-based embedded systems.",
+        "pricing": "1"
+    },
+    {
+        "id": "149",
+        "category_id": "12",
+        "subcategory_id": "84",
+        "name": "Grafana IoT Dashboards",
+        "url": "https:\/\/grafana.com\/",
+        "description": "Visualization platform for monitoring IoT and embedded system telemetry.",
+        "pricing": "0"
+    },
+    {
+        "id": "150",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Jenkins",
+        "url": "https:\/\/www.jenkins.io\/",
+        "description": "Open-source automation server for continuous integration and continuous delivery pipelines.",
+        "pricing": "0"
+    },
+    {
+        "id": "151",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "GitHub Actions",
+        "url": "https:\/\/github.com\/features\/actions",
+        "description": "Built-in CI\/CD system for GitHub repositories, enabling workflow automation for testing and deployment.",
+        "pricing": "1"
+    },
+    {
+        "id": "152",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "GitLab CI\/CD",
+        "url": "https:\/\/about.gitlab.com\/stages-devops-lifecycle\/continuous-integration\/",
+        "description": "Integrated CI\/CD pipeline feature of GitLab for code building, testing, and deployment.",
+        "pricing": "1"
+    },
+    {
+        "id": "153",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "CircleCI",
+        "url": "https:\/\/circleci.com\/",
+        "description": "Cloud-based CI\/CD tool for automating build, test, and deployment pipelines with flexibility and scalability.",
+        "pricing": "1"
+    },
+    {
+        "id": "154",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Travis CI",
+        "url": "https:\/\/www.travis-ci.com\/",
+        "description": "Hosted CI\/CD service that automates building and testing code for multiple environments.",
+        "pricing": "1"
+    },
+    {
+        "id": "155",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "TeamCity",
+        "url": "https:\/\/www.jetbrains.com\/teamcity\/",
+        "description": "JetBrains CI\/CD platform with smart build management and extensible pipelines.",
+        "pricing": "1"
+    },
+    {
+        "id": "156",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Buildkite",
+        "url": "https:\/\/buildkite.com\/",
+        "description": "Hybrid CI\/CD platform allowing pipelines to run on your own infrastructure securely.",
+        "pricing": "2"
+    },
+    {
+        "id": "157",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Harness",
+        "url": "https:\/\/harness.io\/",
+        "description": "AI-assisted continuous delivery platform for automated deployments and rollbacks.",
+        "pricing": "2"
+    },
+    {
+        "id": "158",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Octopus Deploy",
+        "url": "https:\/\/octopus.com\/",
+        "description": "Powerful release orchestration and deployment automation tool for cloud and on-premises environments.",
+        "pricing": "2"
+    },
+    {
+        "id": "159",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Spinnaker",
+        "url": "https:\/\/spinnaker.io\/",
+        "description": "Open-source multi-cloud continuous delivery platform created by Netflix.",
+        "pricing": "0"
+    },
+    {
+        "id": "160",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Netlify",
+        "url": "https:\/\/www.netlify.com\/",
+        "description": "Platform for building, deploying, and managing modern web projects with integrated CI\/CD pipelines.",
+        "pricing": "1"
+    },
+    {
+        "id": "161",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Vercel",
+        "url": "https:\/\/vercel.com\/",
+        "description": "Deployment and collaboration platform optimized for frontend frameworks like Next.js.",
+        "pricing": "1"
+    },
+    {
+        "id": "162",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Render",
+        "url": "https:\/\/render.com\/",
+        "description": "Unified cloud platform for deploying web apps, APIs, databases, and static sites with automatic CI\/CD.",
+        "pricing": "1"
+    },
+    {
+        "id": "163",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Fly.io",
+        "url": "https:\/\/fly.io\/",
+        "description": "App hosting platform that runs containers close to users with global deployment and scaling.",
+        "pricing": "1"
+    },
+    {
+        "id": "164",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Railway.app",
+        "url": "https:\/\/railway.app\/",
+        "description": "Developer-friendly deployment platform with GitHub integration and instant environments.",
+        "pricing": "1"
+    },
+    {
+        "id": "165",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Heroku",
+        "url": "https:\/\/www.heroku.com\/",
+        "description": "PaaS for deploying and scaling apps with built-in CI\/CD pipelines and simple git-based deployments.",
+        "pricing": "1"
+    },
+    {
+        "id": "166",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Firebase Hosting",
+        "url": "https:\/\/firebase.google.com\/products\/hosting",
+        "description": "Google service for deploying web apps and static content globally with CI\/CD support.",
+        "pricing": "1"
+    },
+    {
+        "id": "167",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "AWS Amplify",
+        "url": "https:\/\/aws.amazon.com\/amplify\/",
+        "description": "Hosting and CI\/CD service by AWS for frontend and mobile web apps.",
+        "pricing": "2"
+    },
+    {
+        "id": "168",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Azure DevOps",
+        "url": "https:\/\/azure.microsoft.com\/products\/devops\/",
+        "description": "Microsoft platform offering CI\/CD pipelines, repositories, and cloud deployment automation.",
+        "pricing": "2"
+    },
+    {
+        "id": "169",
+        "category_id": "10",
+        "subcategory_id": "66",
+        "name": "Google Cloud Build",
+        "url": "https:\/\/cloud.google.com\/build",
+        "description": "Fully managed CI\/CD service for building and deploying applications across Google Cloud.",
+        "pricing": "1"
+    },
+    {
+        "id": "170",
+        "category_id": "11",
+        "subcategory_id": "73",
+        "name": "Phaser",
+        "url": "https:\/\/phaser.io\/",
+        "description": "A fast, free and open-source HTML5 game framework for 2D game development using JavaScript or TypeScript.",
+        "pricing": "0"
+    },
+    {
+        "id": "171",
+        "category_id": "11",
+        "subcategory_id": "73",
+        "name": "ORX",
+        "url": "https:\/\/orx-project.org\/",
+        "description": "Lightweight, portable open-source 2D game engine written in C and C++ for multiple platforms.",
+        "pricing": "0"
+    },
+    {
+        "id": "172",
+        "category_id": "11",
+        "subcategory_id": "73",
+        "name": "OpenSpace3D",
+        "url": "https:\/\/www.openspace3d.com\/",
+        "description": "Free game engine focused on immersive applications and XR, including support for AR and VR.",
+        "pricing": "0"
+    },
+    {
+        "id": "173",
+        "category_id": "11",
+        "subcategory_id": "74",
+        "name": "Blender",
+        "url": "https:\/\/www.blender.org\/",
+        "description": "Open-source 3D modeling, animation, and asset creation suite widely used in game development.",
+        "pricing": "0"
+    },
+    {
+        "id": "174",
+        "category_id": "11",
+        "subcategory_id": "74",
+        "name": "Aseprite",
+        "url": "https:\/\/www.aseprite.org\/",
+        "description": "Tool for creating pixel art and 2D sprite animations, commonly used in indie game development.",
+        "pricing": "2"
+    },
+    {
+        "id": "175",
+        "category_id": "11",
+        "subcategory_id": "74",
+        "name": "Mixamo",
+        "url": "https:\/\/www.mixamo.com\/",
+        "description": "Web-based 3D character rigging and animation tool that speeds up asset production for games.",
+        "pricing": "1"
+    },
+    {
+        "id": "176",
+        "category_id": "11",
+        "subcategory_id": "75",
+        "name": "Havok Physics",
+        "url": "https:\/\/www.havok.com\/physics\/",
+        "description": "Professional-grade physics middleware used in many commercial games for collisions and simulation.",
+        "pricing": "2"
+    },
+    {
+        "id": "177",
+        "category_id": "11",
+        "subcategory_id": "75",
+        "name": "Spine",
+        "url": "https:\/\/esotericsoftware.com\/",
+        "description": "2D skeletal animation tool for game development pipelines with integration into many game engines.",
+        "pricing": "2"
+    },
+    {
+        "id": "178",
+        "category_id": "11",
+        "subcategory_id": "75",
+        "name": "Bullet Physics Library",
+        "url": "https:\/\/pybullet.org\/",
+        "description": "Open-source physics engine for real-time collision detection and simulation used in games and VR.",
+        "pricing": "0"
+    },
+    {
+        "id": "179",
+        "category_id": "11",
+        "subcategory_id": "76",
+        "name": "Photon Engine",
+        "url": "https:\/\/www.photonengine.com\/",
+        "description": "Real-time multiplayer game backend and network engine service designed for different game genres.",
+        "pricing": "1"
+    },
+    {
+        "id": "180",
+        "category_id": "11",
+        "subcategory_id": "76",
+        "name": "Mirror Networking (Unity)",
+        "url": "https:\/\/mirror-networking.com\/",
+        "description": "Open-source networking library for Unity to quickly implement multiplayer features.",
+        "pricing": "0"
+    },
+    {
+        "id": "181",
+        "category_id": "11",
+        "subcategory_id": "76",
+        "name": "Colyseus",
+        "url": "https:\/\/www.colyseus.io\/",
+        "description": "Open-source multiplayer framework for Node.js and JavaScript clients for scalable and lightweight game servers.",
+        "pricing": "0"
+    },
+    {
+        "id": "182",
+        "category_id": "11",
+        "subcategory_id": "77",
+        "name": "FMOD Studio",
+        "url": "https:\/\/www.fmod.com\/",
+        "description": "Middleware and tool for adaptive audio in games, allowing designers to build dynamic soundscapes.",
+        "pricing": "2"
+    },
+    {
+        "id": "183",
+        "category_id": "11",
+        "subcategory_id": "77",
+        "name": "Wwise",
+        "url": "https:\/\/www.audiokinetic.com\/products\/wwise\/",
+        "description": "Audio engine and toolset for games and interactive media with deep integration into major game engines.",
+        "pricing": "2"
+    },
+    {
+        "id": "184",
+        "category_id": "11",
+        "subcategory_id": "77",
+        "name": "Audacity",
+        "url": "https:\/\/www.audacityteam.org\/",
+        "description": "Free open-source audio editor used by many game developers for sound editing and effects.",
+        "pricing": "0"
+    },
+    {
+        "id": "185",
+        "category_id": "11",
+        "subcategory_id": "78",
+        "name": "Game Dev Resources – Perforce",
+        "url": "https:\/\/www.perforce.com\/resources\/vcs\/game-dev-resources",
+        "description": "Curated guides, tool lists, and workflows aimed at game studios from indie to AAA.",
+        "pricing": "0"
+    },
+    {
+        "id": "186",
+        "category_id": "11",
+        "subcategory_id": "78",
+        "name": "Game Engine List",
+        "url": "https:\/\/gameenginelist.com\/",
+        "description": "Comprehensive directory and comparison site listing game engines and frameworks for all levels.",
+        "pricing": "0"
+    },
+    {
+        "id": "187",
+        "category_id": "11",
+        "subcategory_id": "78",
+        "name": "Wayline – Game Development Tools & Resources",
+        "url": "https:\/\/wayline.io\/blog\/game-development-tools-and-resources",
+        "description": "Blog that collates many game development tools, engines, and resources across categories.",
+        "pricing": "0"
+    },
+    {
+        "id": "188",
+        "category_id": "11",
+        "subcategory_id": "79",
+        "name": "RenderDoc",
+        "url": "https:\/\/renderdoc.org",
+        "description": "Free open-source frame debugger for Vulkan, Direct3D, and OpenGL that helps inspect GPU workloads and rendering performance.",
+        "pricing": "0"
+    },
+    {
+        "id": "189",
+        "category_id": "11",
+        "subcategory_id": "79",
+        "name": "Unity Profiler & Memory Profiler",
+        "url": "https:\/\/unity.com\/features\/profiling",
+        "description": "Built-in profiling tools in Unity to analyze GPU and CPU load, memory usage, and frame-time bottlenecks in real time.",
+        "pricing": "0"
+    },
+    {
+        "id": "190",
+        "category_id": "11",
+        "subcategory_id": "79",
+        "name": "Android GPU Inspector \/ Game Optimization Tools",
+        "url": "https:\/\/developer.android.com\/games\/tools",
+        "description": "Tools from Google for optimizing games on Android devices, including GPU Inspector, CPU profiler, and frame tracing utilities.",
+        "pricing": "0"
+    }
+]

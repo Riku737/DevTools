@@ -1,0 +1,518 @@
+[
+    {
+        "id": "1",
+        "category_id": "1",
+        "name": "HTML & CSS",
+        "visibility": "1"
+    },
+    {
+        "id": "2",
+        "category_id": "1",
+        "name": "JavaScript Frameworks",
+        "visibility": "1"
+    },
+    {
+        "id": "3",
+        "category_id": "1",
+        "name": "UI\/UX Design",
+        "visibility": "1"
+    },
+    {
+        "id": "4",
+        "category_id": "1",
+        "name": "CSS Frameworks",
+        "visibility": "1"
+    },
+    {
+        "id": "5",
+        "category_id": "1",
+        "name": "Web Performance",
+        "visibility": "1"
+    },
+    {
+        "id": "6",
+        "category_id": "1",
+        "name": "Accessibility",
+        "visibility": "1"
+    },
+    {
+        "id": "7",
+        "category_id": "1",
+        "name": "Front-end Build Tools",
+        "visibility": "1"
+    },
+    {
+        "id": "8",
+        "category_id": "2",
+        "name": "Server Frameworks",
+        "visibility": "1"
+    },
+    {
+        "id": "9",
+        "category_id": "2",
+        "name": "APIs & REST",
+        "visibility": "1"
+    },
+    {
+        "id": "10",
+        "category_id": "2",
+        "name": "Database Management",
+        "visibility": "1"
+    },
+    {
+        "id": "11",
+        "category_id": "2",
+        "name": "Authentication & Authorization",
+        "visibility": "1"
+    },
+    {
+        "id": "12",
+        "category_id": "2",
+        "name": "Microservices",
+        "visibility": "1"
+    },
+    {
+        "id": "13",
+        "category_id": "2",
+        "name": "Caching & Optimization",
+        "visibility": "1"
+    },
+    {
+        "id": "14",
+        "category_id": "2",
+        "name": "Message Queues",
+        "visibility": "1"
+    },
+    {
+        "id": "15",
+        "category_id": "3",
+        "name": "MERN Stack",
+        "visibility": "1"
+    },
+    {
+        "id": "16",
+        "category_id": "3",
+        "name": "MEAN Stack",
+        "visibility": "1"
+    },
+    {
+        "id": "17",
+        "category_id": "3",
+        "name": "Django + React",
+        "visibility": "1"
+    },
+    {
+        "id": "18",
+        "category_id": "3",
+        "name": "Ruby on Rails",
+        "visibility": "1"
+    },
+    {
+        "id": "19",
+        "category_id": "3",
+        "name": "Laravel + Vue",
+        "visibility": "1"
+    },
+    {
+        "id": "20",
+        "category_id": "3",
+        "name": "Next.js \/ Nuxt.js",
+        "visibility": "1"
+    },
+    {
+        "id": "21",
+        "category_id": "3",
+        "name": "Deployment & CI\/CD",
+        "visibility": "1"
+    },
+    {
+        "id": "22",
+        "category_id": "4",
+        "name": "iOS Development",
+        "visibility": "1"
+    },
+    {
+        "id": "23",
+        "category_id": "4",
+        "name": "Android Development",
+        "visibility": "1"
+    },
+    {
+        "id": "24",
+        "category_id": "4",
+        "name": "Cross-platform Frameworks",
+        "visibility": "1"
+    },
+    {
+        "id": "25",
+        "category_id": "4",
+        "name": "Mobile UI\/UX",
+        "visibility": "1"
+    },
+    {
+        "id": "26",
+        "category_id": "4",
+        "name": "App Performance & Optimization",
+        "visibility": "1"
+    },
+    {
+        "id": "27",
+        "category_id": "4",
+        "name": "App Monetization",
+        "visibility": "1"
+    },
+    {
+        "id": "28",
+        "category_id": "4",
+        "name": "App Testing & Debugging",
+        "visibility": "1"
+    },
+    {
+        "id": "29",
+        "category_id": "5",
+        "name": "JavaScript",
+        "visibility": "1"
+    },
+    {
+        "id": "30",
+        "category_id": "5",
+        "name": "Python",
+        "visibility": "1"
+    },
+    {
+        "id": "31",
+        "category_id": "5",
+        "name": "Java",
+        "visibility": "1"
+    },
+    {
+        "id": "32",
+        "category_id": "5",
+        "name": "C#",
+        "visibility": "1"
+    },
+    {
+        "id": "33",
+        "category_id": "5",
+        "name": "C++",
+        "visibility": "1"
+    },
+    {
+        "id": "34",
+        "category_id": "5",
+        "name": "Go",
+        "visibility": "1"
+    },
+    {
+        "id": "35",
+        "category_id": "5",
+        "name": "Rust",
+        "visibility": "1"
+    },
+    {
+        "id": "36",
+        "category_id": "5",
+        "name": "PHP",
+        "visibility": "1"
+    },
+    {
+        "id": "37",
+        "category_id": "5",
+        "name": "Ruby",
+        "visibility": "1"
+    },
+    {
+        "id": "38",
+        "category_id": "6",
+        "name": "Machine Learning Frameworks",
+        "visibility": "1"
+    },
+    {
+        "id": "39",
+        "category_id": "6",
+        "name": "Deep Learning",
+        "visibility": "1"
+    },
+    {
+        "id": "40",
+        "category_id": "6",
+        "name": "Computer Vision",
+        "visibility": "1"
+    },
+    {
+        "id": "41",
+        "category_id": "6",
+        "name": "Natural Language Processing",
+        "visibility": "1"
+    },
+    {
+        "id": "42",
+        "category_id": "6",
+        "name": "Model Deployment",
+        "visibility": "1"
+    },
+    {
+        "id": "43",
+        "category_id": "6",
+        "name": "AI Ethics & Explainability",
+        "visibility": "1"
+    },
+    {
+        "id": "44",
+        "category_id": "6",
+        "name": "Data Preprocessing",
+        "visibility": "1"
+    },
+    {
+        "id": "45",
+        "category_id": "7",
+        "name": "Data Visualization",
+        "visibility": "1"
+    },
+    {
+        "id": "46",
+        "category_id": "7",
+        "name": "Data Engineering",
+        "visibility": "1"
+    },
+    {
+        "id": "47",
+        "category_id": "7",
+        "name": "Big Data Tools",
+        "visibility": "1"
+    },
+    {
+        "id": "48",
+        "category_id": "7",
+        "name": "Statistical Analysis",
+        "visibility": "1"
+    },
+    {
+        "id": "49",
+        "category_id": "7",
+        "name": "Business Intelligence",
+        "visibility": "1"
+    },
+    {
+        "id": "50",
+        "category_id": "7",
+        "name": "Data Cleaning",
+        "visibility": "1"
+    },
+    {
+        "id": "51",
+        "category_id": "7",
+        "name": "ETL Tools",
+        "visibility": "1"
+    },
+    {
+        "id": "52",
+        "category_id": "8",
+        "name": "Network Security",
+        "visibility": "1"
+    },
+    {
+        "id": "53",
+        "category_id": "8",
+        "name": "Web Security",
+        "visibility": "1"
+    },
+    {
+        "id": "54",
+        "category_id": "8",
+        "name": "Cryptography",
+        "visibility": "1"
+    },
+    {
+        "id": "55",
+        "category_id": "8",
+        "name": "Ethical Hacking",
+        "visibility": "1"
+    },
+    {
+        "id": "56",
+        "category_id": "8",
+        "name": "Penetration Testing",
+        "visibility": "1"
+    },
+    {
+        "id": "57",
+        "category_id": "8",
+        "name": "Incident Response",
+        "visibility": "1"
+    },
+    {
+        "id": "58",
+        "category_id": "8",
+        "name": "Security Tools",
+        "visibility": "1"
+    },
+    {
+        "id": "59",
+        "category_id": "9",
+        "name": "Unit Testing",
+        "visibility": "1"
+    },
+    {
+        "id": "60",
+        "category_id": "9",
+        "name": "Integration Testing",
+        "visibility": "1"
+    },
+    {
+        "id": "61",
+        "category_id": "9",
+        "name": "UI Testing",
+        "visibility": "1"
+    },
+    {
+        "id": "62",
+        "category_id": "9",
+        "name": "Automation Frameworks",
+        "visibility": "1"
+    },
+    {
+        "id": "63",
+        "category_id": "9",
+        "name": "Performance Testing",
+        "visibility": "1"
+    },
+    {
+        "id": "64",
+        "category_id": "9",
+        "name": "Continuous Testing",
+        "visibility": "1"
+    },
+    {
+        "id": "65",
+        "category_id": "9",
+        "name": "Test Management",
+        "visibility": "1"
+    },
+    {
+        "id": "66",
+        "category_id": "10",
+        "name": "CI\/CD Tools",
+        "visibility": "1"
+    },
+    {
+        "id": "67",
+        "category_id": "10",
+        "name": "Containerization",
+        "visibility": "1"
+    },
+    {
+        "id": "68",
+        "category_id": "10",
+        "name": "Infrastructure as Code",
+        "visibility": "1"
+    },
+    {
+        "id": "69",
+        "category_id": "10",
+        "name": "Monitoring & Logging",
+        "visibility": "1"
+    },
+    {
+        "id": "70",
+        "category_id": "10",
+        "name": "Cloud Platforms",
+        "visibility": "1"
+    },
+    {
+        "id": "71",
+        "category_id": "10",
+        "name": "Version Control",
+        "visibility": "1"
+    },
+    {
+        "id": "72",
+        "category_id": "10",
+        "name": "Configuration Management",
+        "visibility": "1"
+    },
+    {
+        "id": "73",
+        "category_id": "11",
+        "name": "Game Engines",
+        "visibility": "1"
+    },
+    {
+        "id": "74",
+        "category_id": "11",
+        "name": "2D\/3D Graphics",
+        "visibility": "1"
+    },
+    {
+        "id": "75",
+        "category_id": "11",
+        "name": "Physics & Animation",
+        "visibility": "1"
+    },
+    {
+        "id": "76",
+        "category_id": "11",
+        "name": "Multiplayer Networking",
+        "visibility": "1"
+    },
+    {
+        "id": "77",
+        "category_id": "11",
+        "name": "Game Audio",
+        "visibility": "1"
+    },
+    {
+        "id": "78",
+        "category_id": "11",
+        "name": "Game Design",
+        "visibility": "1"
+    },
+    {
+        "id": "79",
+        "category_id": "11",
+        "name": "Optimization & Performance",
+        "visibility": "1"
+    },
+    {
+        "id": "80",
+        "category_id": "12",
+        "name": "Microcontrollers",
+        "visibility": "1"
+    },
+    {
+        "id": "81",
+        "category_id": "12",
+        "name": "Embedded C\/C++",
+        "visibility": "1"
+    },
+    {
+        "id": "82",
+        "category_id": "12",
+        "name": "IoT Platforms",
+        "visibility": "1"
+    },
+    {
+        "id": "83",
+        "category_id": "12",
+        "name": "Sensors & Actuators",
+        "visibility": "1"
+    },
+    {
+        "id": "84",
+        "category_id": "12",
+        "name": "Wireless Communication",
+        "visibility": "1"
+    },
+    {
+        "id": "85",
+        "category_id": "12",
+        "name": "Real-time Operating Systems",
+        "visibility": "1"
+    },
+    {
+        "id": "86",
+        "category_id": "12",
+        "name": "Edge Computing",
+        "visibility": "1"
+    }
+]

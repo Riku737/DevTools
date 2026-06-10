@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "name": "Front-end Development",
+        "slug": "front-end-development",
+        "visible": "1",
+        "description": "Tools for building user interfaces and web experiences. Examples: React, Tailwind CSS.",
+        "icon": "display"
+    },
+    {
+        "id": "2",
+        "name": "Back-end Development\r\n",
+        "slug": "back-end-development",
+        "visible": "1",
+        "description": "Resources for server-side logic, APIs, and databases. Examples: Node.js, Express.",
+        "icon": "cloud"
+    },
+    {
+        "id": "3",
+        "name": "Full-stack Development\r\n",
+        "slug": "full-stack-development",
+        "visible": "1",
+        "description": "End-to-end development tools covering both front-end and back-end. Examples: Next.js, Laravel.",
+        "icon": "layers"
+    },
+    {
+        "id": "4",
+        "name": "Mobile App Development\r\n",
+        "slug": "mobile-app-development",
+        "visible": "1",
+        "description": "Frameworks and SDKs for building mobile apps. Examples: Flutter, React Native.",
+        "icon": "phone"
+    },
+    {
+        "id": "5",
+        "name": "Languages\r\n",
+        "slug": "languages",
+        "visible": "1",
+        "description": "Programming language resources and compilers. Examples: Python, Rust.",
+        "icon": "code-slash"
+    },
+    {
+        "id": "6",
+        "name": "Artificial Intelligence & Machine Learning\r\n",
+        "slug": "ai-and-ml",
+        "visible": "1",
+        "description": "Libraries and platforms for AI\/ML development. Examples: TensorFlow, PyTorch.",
+        "icon": "robot"
+    },
+    {
+        "id": "7",
+        "name": "Data Science & Analytics\r\n",
+        "slug": "data-science-and-analytics",
+        "visible": "1",
+        "description": "Tools for data processing, visualization, and analysis. Examples: Pandas, Apache Spark.",
+        "icon": "bar-chart"
+    },
+    {
+        "id": "8",
+        "name": "Cybersecurity\r\n",
+        "slug": "cybersecurity",
+        "visible": "1",
+        "description": "Security-focused utilities and frameworks. Examples: OWASP ZAP, HashiCorp Vault.",
+        "icon": "shield-shaded"
+    },
+    {
+        "id": "9",
+        "name": "QA & Testing",
+        "slug": "qa-and-testing",
+        "visible": "1",
+        "description": "Testing frameworks and automation tools. Examples: Jest, Selenium.",
+        "icon": "flask"
+    },
+    {
+        "id": "10",
+        "name": "DevOps",
+        "slug": "devops",
+        "visible": "1",
+        "description": "CI\/CD, infrastructure, and deployment tools. Examples: Docker, Jenkins.",
+        "icon": "infinity"
+    },
+    {
+        "id": "11",
+        "name": "Game Development",
+        "slug": "game-development",
+        "visible": "1",
+        "description": "Engines and libraries for building games. Examples: Unity, Godot.",
+        "icon": "controller"
+    },
+    {
+        "id": "12",
+        "name": "Embedded Systems \/ IoT",
+        "slug": "embedded-systems",
+        "visible": "1",
+        "description": "Tools for hardware programming and IoT devices. Examples: Arduino IDE, PlatformIO.",
+        "icon": "cpu"
+    }
+]

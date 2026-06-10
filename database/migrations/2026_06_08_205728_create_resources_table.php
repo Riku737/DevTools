@@ -13,12 +13,15 @@ return new class extends Migration
     {
         Schema::create('resources', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('category_id')->constrained('categories')->cascadeOnDelete();
-            $table->foreignId('subcategory_id')->constrained('subcategories')->cascadeOnDelete();
+
+            $table->foreignId('category_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('subcategory_id')->constrained()->cascadeOnDelete();
+
             $table->string('name');
             $table->string('url');
             $table->text('description');
             $table->integer('pricing');
+
             $table->timestamps();
         });
     }

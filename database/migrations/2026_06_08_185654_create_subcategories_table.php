@@ -13,9 +13,13 @@ return new class extends Migration
     {
         Schema::create('subcategories', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('category_id')->constrained('categories')->cascadeOnDelete();
-            $table->text('name');
-            $table->integer('visibility');
+
+            $table->foreignId('category_id')->constrained()->cascadeOnDelete();
+
+            $table->string('name');
+            $table->boolean('visibility')->default(true);
+
+            $table->timestamps();
         });
     }
 
