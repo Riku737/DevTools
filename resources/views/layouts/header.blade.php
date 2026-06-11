@@ -44,7 +44,7 @@
                         <a class="nav-link" href="/search">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary" href="/suggest">Suggest a resource</a>
+                        <a class="btn btn-outline-primary">Suggest a resource</a>
                     </li>
                 </ul>
             </div>

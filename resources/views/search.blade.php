@@ -17,8 +17,7 @@
                 <form action="{{ route('query') }}" method="GET" class="input-group">
                     <button class="btn btn-primary"><i class="bi bi-search"></i></button>
                     <input name="query" type="text" class="form-control" value="{{ $query ?? '' }}"
-                        placeholder="Search by name or description" aria-label="Search resources"
-                        aria-describedby="button-addon1">
+                        placeholder="Search by name or description" aria-label="Search resources">
                 </form>
 
             </div>

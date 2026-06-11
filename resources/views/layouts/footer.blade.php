@@ -1,6 +1,6 @@
-    </main>
+</main>
 
-    <footer class="mt-5 bg-light">
+<footer class="mt-5 bg-light">
 
     <div class="container-lg">
 
@@ -16,7 +16,7 @@
                         <p>A library of tools for every developer, at your fingertips.</p>
                     </li>
                     <li>
-                        <a class="btn btn-primary" href="/suggest">Suggest a resource</a>
+                        <a class="btn btn-primary">Suggest a resource</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
                             <a class="link" href="/categories/{{ $categories[$i]->slug }}">{{ $categories[$i]->name }}</a>
                         </li>
                     @endfor
-                
+
                 </ul>
             </div>
 
@@ -73,10 +73,12 @@
             <div class="col-lg-6">
                 <ul class="list-unstyled d-flex justify-content-lg-end flex-row gap-3">
                     <li>
-                        <a class="link" href="https://linkedin.com/in/riki-mcalear/" target="_blank"><i class="bi bi-linkedin me-1"></i>LinkedIn</a>
+                        <a class="link" href="https://linkedin.com/in/riki-mcalear/" target="_blank"><i
+                                class="bi bi-linkedin me-1"></i>LinkedIn</a>
                     </li>
                     <li>
-                        <a class="link" href="https://github.com/Riku737/Devtools" target="_blank"><i class="bi bi-github me-1"></i>Github</a>
+                        <a class="link" href="https://github.com/Riku737/Devtools" target="_blank"><i
+                                class="bi bi-github me-1"></i>Github</a>
                     </li>
                 </ul>
             </div>
