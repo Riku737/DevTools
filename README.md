@@ -1,12 +1,26 @@
+![DevTools Banner](docs/ReadmeThumbnail0.png)
+
+![GitHub Created At](https://img.shields.io/github/created-at/Riku737/DevTools)
+![GitHub last commit](https://img.shields.io/github/last-commit/Riku737/DevTools)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
 # DevTools
 
-A web app that lists developer tools organized by categories and subcategories. It provides a searchable directory to help developers discover useful resources quickly.
+A web app that lists 150+ developer tools organized by categories and subcategories. It provides a searchable directory to help developers discover useful resources quickly.
 
 ## Project Highlights
 - **MVC Laravel app:** Built with PHP and Laravel using controllers, routes, Eloquent models, and Blade layouts/components.
 - **Structured database setup:** Uses migrations and seeders, with the initial database implemented through JSON files and SQLite for local development, plus XAMPP support in the original setup.
 - **Frontend and UI:** Combines HTML, CSS, Bootstrap, Laravel, and JavaScript for a clean responsive interface.
 - **Practical app flow:** Includes category-based browsing, search, and resource management for a real directory-style user experience.
+
+![DevTools Home](docs/ReadmeThumbnail1.png)
+![DevTools Category](docs/ReadmeThumbnail2.png)
+![DevTools Search](docs/ReadmeThumbnail3.png)
 
 ## How to Install and Run
 
