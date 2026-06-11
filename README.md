@@ -1,12 +1,12 @@
 # DevTools
 
-A Laravel web app that lists developer tools, libraries, and resources organized by categories and subcategories. It provides a searchable directory to help developers discover useful resources quickly.
+A web app that lists developer tools organized by categories and subcategories. It provides a searchable directory to help developers discover useful resources quickly.
 
-## Features
-- **Resource catalog:** Categories, subcategories, and resource entries with descriptions and pricings.
-- **Search:** Resource-only search that performs quick lookups across name, description, and URL.
-- **Seeders:** Import data from JSON exports and safe seeding routines to avoid duplicate keys.
-- **SQLite-ready:** Works out-of-the-box with a local SQLite file for easy sharing or demo purposes.
+## Project Highlights
+- **MVC Laravel app:** Built with PHP and Laravel using controllers, routes, Eloquent models, and Blade layouts/components.
+- **Structured database setup:** Uses migrations and seeders, with the initial database implemented through JSON files and SQLite for local development, plus XAMPP support in the original setup.
+- **Frontend and UI:** Combines HTML, CSS, Bootstrap, Laravel, and JavaScript for a clean responsive interface.
+- **Practical app flow:** Includes category-based browsing, search, and resource management for a real directory-style user experience.
 
 ## How to Install and Run
 
