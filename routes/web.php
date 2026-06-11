@@ -2,6 +2,7 @@
 
 use App\Models\Category;
 use App\Models\Subcategory;
+use App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Route;
 
 // API endpoint to return subcategories for a given category (used by the suggest form)
@@ -38,10 +39,7 @@ Route::get('/login', function () {
     return view('login', ['categories' => $categories]);
 });
 
-Route::get('/search', function () {
-    $categories = Category::all(); // Footer    
-    return view('search', ['categories' => $categories]);
-});
+Route::get('/search', [SearchController::class, 'runSearch'])->name('query');
 
 Route::get('/suggest', function () {
     $categories = Category::all(); // Footer + Dropdown
