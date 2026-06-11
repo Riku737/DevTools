@@ -1,6 +1,6 @@
 # DevTools
 
-A lightweight Laravel application that catalogs developer tools, libraries, and resources organized by categories and subcategories. It provides a searchable directory of links, descriptions, and metadata to help developers discover useful services and libraries quickly.
+A Laravel web app that lists developer tools, libraries, and resources organized by categories and subcategories. It provides a searchable directory to help developers discover useful resources quickly.
 
 ## Features
 - **Resource catalog:** Categories, subcategories, and resource entries with descriptions and pricings.
@@ -8,9 +8,10 @@ A lightweight Laravel application that catalogs developer tools, libraries, and 
 - **Seeders:** Import data from JSON exports and safe seeding routines to avoid duplicate keys.
 - **SQLite-ready:** Works out-of-the-box with a local SQLite file for easy sharing or demo purposes.
 
-**How to Install and Run**
+## How to Install and Run
 
 - **Requirements:** PHP 8.1+ with `pdo_sqlite` enabled, Composer, and Node.js if you want to build assets.
+- This project was originally developed and tested on Windows with XAMPP, so the steps below assume PHP is available through a local XAMPP install or an equivalent setup.
 - Install PHP dependencies and copy the example env:
 
 ```bash
@@ -39,9 +40,16 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
-- (Optional) If the repo includes a demo DB file at `database/developer_tools`, you may set `DB_DATABASE` to that path instead of creating a new SQLite file.
+- Install frontend dependencies and build the assets so Laravel can generate `public/build/manifest.json`:
 
-**How to Use**
+```bash
+npm install
+npm run build
+```
+
+- If you are developing locally, you can use `npm run dev` instead of `npm run build` to serve assets through Vite.
+
+## How to Use
 
 - Start the development server:
 
@@ -59,12 +67,7 @@ php artisan db:seed --class=\Database\Seeders\SubcategoriesSeeder
 php artisan db:seed --class=\Database\Seeders\ResourcesSeeder
 ```
 
-**Notes on Publishing / Git Hygiene**
-- Keep `.env` out of the repo. Provide `.env.example` instead.
-- Ignore `vendor/`, `node_modules/`, and local SQLite files unless you intentionally want to ship a demo DB.
-- Migrations and seeders are the canonical source of project data — prefer running `php artisan migrate --seed` for fresh setups.
-
-**Troubleshooting**
+## Troubleshooting
 - If Laravel seems to cache configuration changes, clear caches:
 
 ```bash
@@ -73,14 +76,6 @@ php artisan route:clear
 php artisan view:clear
 ```
 
+- If you see `Vite manifest not found at public/build/manifest.json`, run `npm install` and `npm run build` in a fresh clone, or use `npm run dev` while the Vite dev server is running.
+
 - If you encounter JSON seeder import issues, verify the JSON structure in `database/data/` and ensure the seeders are extracting `data` arrays when phpMyAdmin-wrapped exports are present.
-
-**Contributing**
-- Contributions are welcome. Add new categories, subcategories, or resources via the JSON files and open a PR with data and UI improvements.
-
-**License & Attribution**
-- Add your preferred license and attribution here (e.g., MIT) before publishing.
-
----
-
-If you want I can also add a short `CONTRIBUTING.md`, example issues, or a demo Docker Compose setup — tell me which you'd prefer.
