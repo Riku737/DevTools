@@ -26,7 +26,7 @@
 
         <div class="row g-3 mb-4">
             @forelse ($resources as $resource)
-                <x-card :resource="$resource" />
+                <x-resource-card :resource="$resource" />
             @empty
                 <div class="col-12">
                     <div class="alert alert-light mb-0">

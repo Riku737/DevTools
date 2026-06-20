@@ -10,6 +10,9 @@ class SearchController extends Controller
 {
     public function runSearch(Request $request)
     {
+
+        $categories = Category::all();
+
         $query = trim((string) $request->input('query', ''));
 
         $resources = Resource::query()
@@ -21,7 +24,7 @@ class SearchController extends Controller
             ->get();
 
         return view('search', [
-            'categories' => Category::all(),
+            'categories' => $categories,
             'resources' => $resources,
             'query' => $query,
         ]);
