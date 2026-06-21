@@ -1,4 +1,4 @@
-<header class="navbar border-bottom py-2 navbar-expand-lg sticky-top bg-white">
+<nav class="navbar border-bottom py-2 navbar-expand-lg sticky-top bg-white">
 
     <div class="container-lg">
 
@@ -38,4 +38,4 @@
 
     </div>
 
-</header>
+</nav>

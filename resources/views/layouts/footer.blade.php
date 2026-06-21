@@ -1,5 +1,3 @@
-</main>
-
 <footer class="mt-5 bg-light">
 
     <div class="container-lg">
@@ -72,10 +70,6 @@
             </div>
             <div class="col-lg-6">
                 <ul class="list-unstyled d-flex justify-content-lg-end flex-row gap-3">
-                    <li>
-                        <a class="link" href="https://linkedin.com/in/riki-mcalear/" target="_blank"><i
-                                class="bi bi-linkedin me-1"></i>LinkedIn</a>
-                    </li>
                     <li>
                         <a class="link" href="https://github.com/Riku737/Devtools" target="_blank"><i
                                 class="bi bi-github me-1"></i>Github</a>

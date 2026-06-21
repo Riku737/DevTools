@@ -5,17 +5,11 @@ use App\Models\Subcategory;
 use App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Route;
 
-// API endpoint to return subcategories for a given category (used by the suggest form)
-Route::get('/api/categories/{category}/subcategories', function (Category $category) {
-    // Return only id and name to keep the payload small
-    $subcats = Subcategory::where('category_id', $category->id)->get(['id', 'name']);
-    return response()->json($subcats);
-});
-
+// Category pages (URL Slugs)
 Route::get('/categories/{category:slug}', function (Category $category) {
-    $categories = Category::all(); // Footer
-    $subcategories = $category->subcategories; // Subcategories of the selected category
-    $resources = $category->resources; // Resources of the selected category
+    $categories = Category::all();
+    $subcategories = $category->subcategories;
+    $resources = $category->resources;
     return view('categories.index', [
         'category' => $category,
         'categories' => $categories,
@@ -24,35 +18,44 @@ Route::get('/categories/{category:slug}', function (Category $category) {
     ]);
 });
 
+// Home
 Route::get('/', function () {
     $categories = Category::all(); // Footer
     return view('home', ['categories' => $categories]);
 });
 
+// Home
 Route::get('/home', function () {
     $categories = Category::all(); // Footer
     return view('home', ['categories' => $categories]);
 });
 
-Route::get('/login', function () {
+// Home
+Route::get('/categories', function () {
     $categories = Category::all(); // Footer
-    return view('login', ['categories' => $categories]);
+    return view('home', ['categories' => $categories]);
 });
 
+// Search
+// Whenever someone visits search page, run the runSearch method in SearchController
+// Assign route name query (e.g., /search?query=apple&price=1)
 Route::get('/search', [SearchController::class, 'runSearch'])->name('query');
 
-Route::get('/suggest', function () {
-    $categories = Category::all(); // Footer + Dropdown
-    $subcategories = Subcategory::all(); // Dropdown
-    return view('suggest', ['categories' => $categories, 'subcategories' => $subcategories]);
-});
-
+// Resources
 Route::get('/resources', function () {
     $categories = Category::all(); // Footer
     return view('home', ['categories' => $categories]);
 });
 
-Route::get('/categories', function () {
-    $categories = Category::all(); // Footer
-    return view('home', ['categories' => $categories]);
-});
+// Suggest (discontinued)
+// Route::get('/suggest', function () {
+//     $categories = Category::all(); // Footer + Dropdown
+//     $subcategories = Subcategory::all(); // Dropdown
+//     return view('suggest', ['categories' => $categories, 'subcategories' => $subcategories]);
+// });
+
+// Login (discontinued)
+// Route::get('/login', function () {
+//     $categories = Category::all(); // Footer
+//     return view('login', ['categories' => $categories]);
+// });

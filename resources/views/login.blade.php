@@ -4,9 +4,6 @@
 
 @section("content")
 
-<div class="container-lg mt-5">
-
-
     <div class="row">
         <form class="col-lg-6 offset-lg-3">
             <h1 class="mb-4 fw-bold">Login</h1>
@@ -21,7 +18,5 @@
             <button type="submit" class="btn btn-primary">Login</button>
         </form>
     </div>
-
-</div>
 
 @endsection

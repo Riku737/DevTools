@@ -21,7 +21,3 @@
 </head>
 
 <body>
-
-    <x-navbar :categories="$categories" />
-
-    <main>
