@@ -12,6 +12,8 @@
 
 A web app that lists 150+ developer tools organized by categories and subcategories. It provides a searchable directory to help developers discover useful resources quickly.
 
+---
+
 ## Project Highlights
 - **MVC Laravel app:** Built with PHP and Laravel using controllers, routes, Eloquent models, and Blade layouts/components.
 - **Structured database setup:** Uses migrations and seeders, with the initial database implemented through JSON files and SQLite for local development, plus XAMPP support in the original setup.
@@ -21,6 +23,8 @@ A web app that lists 150+ developer tools organized by categories and subcategor
 ![DevTools Home](docs/ReadmeThumbnail1.png)
 ![DevTools Category](docs/ReadmeThumbnail2.png)
 ![DevTools Search](docs/ReadmeThumbnail3.png)
+
+---
 
 ## How to Install and Run
 
@@ -63,6 +67,8 @@ npm run build
 
 - If you are developing locally, you can use `npm run dev` instead of `npm run build` to serve assets through Vite.
 
+---
+
 ## How to Use
 
 - Start the development server:
@@ -80,16 +86,3 @@ php artisan db:seed --class=\Database\Seeders\CategoriesSeeder
 php artisan db:seed --class=\Database\Seeders\SubcategoriesSeeder
 php artisan db:seed --class=\Database\Seeders\ResourcesSeeder
 ```
-
-## Troubleshooting
-- If Laravel seems to cache configuration changes, clear caches:
-
-```bash
-php artisan config:clear
-php artisan route:clear
-php artisan view:clear
-```
-
-- If you see `Vite manifest not found at public/build/manifest.json`, run `npm install` and `npm run build` in a fresh clone, or use `npm run dev` while the Vite dev server is running.
-
-- If you encounter JSON seeder import issues, verify the JSON structure in `database/data/` and ensure the seeders are extracting `data` arrays when phpMyAdmin-wrapped exports are present.
